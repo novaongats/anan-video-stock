@@ -7,6 +7,614 @@
  ],
  "items": [
   {
+   "key": "第3弾|03_極太麺の旅",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "df777ffadb26",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/df777ffadb26.mp4",
+     "bytes": 20635444,
+     "audio": true,
+     "filename": "あん庵_第3弾_03_極太麺の旅_BGMあり.mp4"
+    },
+    {
+     "id": "c56df44141d1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/c56df44141d1.mp4",
+     "bytes": 20634533,
+     "audio": true,
+     "filename": "あん庵_第3弾_03_極太麺の旅_BGMなし.mp4"
+    }
+   ],
+   "title": "極太麺の旅",
+   "num": "03",
+   "poster": "media/t/df777ffadb26.jpg",
+   "preview": "media/p/df777ffadb26.mp4",
+   "dur": 19.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "df777ffadb26"
+  },
+  {
+   "key": "第3弾|07_湯気だけが動く鉄板",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "a0e013768ef1",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a0e013768ef1.mp4",
+     "bytes": 19731062,
+     "audio": true,
+     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMあり.mp4"
+    },
+    {
+     "id": "161b5893fa43",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/161b5893fa43.mp4",
+     "bytes": 19735639,
+     "audio": true,
+     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMなし.mp4"
+    }
+   ],
+   "title": "湯気だけが動く鉄板",
+   "num": "07",
+   "poster": "media/t/a0e013768ef1.jpg",
+   "preview": "media/p/a0e013768ef1.mp4",
+   "dur": 16.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "a0e013768ef1"
+  },
+  {
+   "key": "第3弾|24_ふたの下は何",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "d3551fb91847",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/d3551fb91847.mp4",
+     "bytes": 11598360,
+     "audio": true,
+     "filename": "あん庵_第3弾_24_ふたの下は何_BGMあり.mp4"
+    },
+    {
+     "id": "c566b88d6d7d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/c566b88d6d7d.mp4",
+     "bytes": 11435828,
+     "audio": true,
+     "filename": "あん庵_第3弾_24_ふたの下は何_BGMなし.mp4"
+    }
+   ],
+   "title": "ふたの下は何",
+   "num": "24",
+   "poster": "media/t/d3551fb91847.jpg",
+   "preview": "media/p/d3551fb91847.mp4",
+   "dur": 16.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "d3551fb91847"
+  },
+  {
+   "key": "第3弾|22_お持ち帰りのレシート",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "a96a0c531b28",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a96a0c531b28.mp4",
+     "bytes": 18451679,
+     "audio": true,
+     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMあり.mp4"
+    },
+    {
+     "id": "719053f2edb6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/719053f2edb6.mp4",
+     "bytes": 18415891,
+     "audio": true,
+     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMなし.mp4"
+    }
+   ],
+   "title": "お持ち帰りのレシート",
+   "num": "22",
+   "poster": "media/t/a96a0c531b28.jpg",
+   "preview": "media/p/a96a0c531b28.mp4",
+   "dur": 16.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "a96a0c531b28"
+  },
+  {
+   "key": "第3弾|29_ルーが落ちる瞬間",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "3bf9c487b7d5",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/3bf9c487b7d5.mp4",
+     "bytes": 13703424,
+     "audio": true,
+     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMあり.mp4"
+    },
+    {
+     "id": "b11cd00a64ee",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b11cd00a64ee.mp4",
+     "bytes": 13641129,
+     "audio": true,
+     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMなし.mp4"
+    }
+   ],
+   "title": "ルーが落ちる瞬間",
+   "num": "29",
+   "poster": "media/t/3bf9c487b7d5.jpg",
+   "preview": "media/p/3bf9c487b7d5.mp4",
+   "dur": 15.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "3bf9c487b7d5"
+  },
+  {
+   "key": "第3弾|21_入口から席まで7秒",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "1ca05a450fb3",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/1ca05a450fb3.mp4",
+     "bytes": 14578516,
+     "audio": true,
+     "filename": "あん庵_第3弾_21_入口から席まで7秒_BGMあり.mp4"
+    },
+    {
+     "id": "b97e2b714ad1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b97e2b714ad1.mp4",
+     "bytes": 14561199,
+     "audio": true,
+     "filename": "あん庵_第3弾_21_入口から席まで7秒_BGMなし.mp4"
+    }
+   ],
+   "title": "入口から席まで7秒",
+   "num": "21",
+   "poster": "media/t/1ca05a450fb3.jpg",
+   "preview": "media/p/1ca05a450fb3.mp4",
+   "dur": 14.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "1ca05a450fb3"
+  },
+  {
+   "key": "第3弾|16_どこに座る",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0f0d3935c2ed",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0f0d3935c2ed.mp4",
+     "bytes": 10486878,
+     "audio": true,
+     "filename": "あん庵_第3弾_16_どこに座る_BGMあり.mp4"
+    },
+    {
+     "id": "b02912580635",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b02912580635.mp4",
+     "bytes": 10393243,
+     "audio": true,
+     "filename": "あん庵_第3弾_16_どこに座る_BGMなし.mp4"
+    }
+   ],
+   "title": "どこに座る",
+   "num": "16",
+   "poster": "media/t/0f0d3935c2ed.jpg",
+   "preview": "media/p/0f0d3935c2ed.mp4",
+   "dur": 14.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "0f0d3935c2ed"
+  },
+  {
+   "key": "第3弾|02_卵割って流して",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0d6031a7cab2",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0d6031a7cab2.mp4",
+     "bytes": 16166010,
+     "audio": true,
+     "filename": "あん庵_第3弾_02_卵割って流して_BGMあり.mp4"
+    },
+    {
+     "id": "f64f795f3aad",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/f64f795f3aad.mp4",
+     "bytes": 16159890,
+     "audio": true,
+     "filename": "あん庵_第3弾_02_卵割って流して_BGMなし.mp4"
+    }
+   ],
+   "title": "卵割って流して",
+   "num": "02",
+   "poster": "media/t/0d6031a7cab2.jpg",
+   "preview": "media/p/0d6031a7cab2.mp4",
+   "dur": 12.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "0d6031a7cab2"
+  },
+  {
+   "key": "第3弾|13_とんかつはここから",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "dbf83a964525",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/dbf83a964525.mp4",
+     "bytes": 19091245,
+     "audio": true,
+     "filename": "あん庵_第3弾_13_とんかつはここから_BGMあり.mp4"
+    },
+    {
+     "id": "74e164fc61fb",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/74e164fc61fb.mp4",
+     "bytes": 19048163,
+     "audio": true,
+     "filename": "あん庵_第3弾_13_とんかつはここから_BGMなし.mp4"
+    }
+   ],
+   "title": "とんかつはここから",
+   "num": "13",
+   "poster": "media/t/dbf83a964525.jpg",
+   "preview": "media/p/dbf83a964525.mp4",
+   "dur": 17.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "dbf83a964525"
+  },
+  {
+   "key": "第3弾|01_あんとろり",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "ed1c1e8626ec",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ed1c1e8626ec.mp4",
+     "bytes": 25346396,
+     "audio": true,
+     "filename": "あん庵_第3弾_01_あんとろり_BGMあり.mp4"
+    },
+    {
+     "id": "011bbf625476",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/011bbf625476.mp4",
+     "bytes": 25345613,
+     "audio": true,
+     "filename": "あん庵_第3弾_01_あんとろり_BGMなし.mp4"
+    }
+   ],
+   "title": "あんとろり",
+   "num": "01",
+   "poster": "media/t/ed1c1e8626ec.jpg",
+   "preview": "media/p/ed1c1e8626ec.mp4",
+   "dur": 18.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "ed1c1e8626ec"
+  },
+  {
+   "key": "第3弾|26_デザート総選挙",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "ad5ece793ece",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ad5ece793ece.mp4",
+     "bytes": 10689124,
+     "audio": true,
+     "filename": "あん庵_第3弾_26_デザート総選挙_BGMあり.mp4"
+    },
+    {
+     "id": "d187ebed33f1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/d187ebed33f1.mp4",
+     "bytes": 10582901,
+     "audio": true,
+     "filename": "あん庵_第3弾_26_デザート総選挙_BGMなし.mp4"
+    }
+   ],
+   "title": "デザート総選挙",
+   "num": "26",
+   "poster": "media/t/ad5ece793ece.jpg",
+   "preview": "media/p/ad5ece793ece.mp4",
+   "dur": 19.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "ad5ece793ece"
+  },
+  {
+   "key": "第3弾|15_昼の顔夜の顔",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "2b2ebdb56938",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/2b2ebdb56938.mp4",
+     "bytes": 16175553,
+     "audio": true,
+     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMあり.mp4"
+    },
+    {
+     "id": "41654b7b29dc",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/41654b7b29dc.mp4",
+     "bytes": 16162402,
+     "audio": true,
+     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMなし.mp4"
+    }
+   ],
+   "title": "昼の顔夜の顔",
+   "num": "15",
+   "poster": "media/t/2b2ebdb56938.jpg",
+   "preview": "media/p/2b2ebdb56938.mp4",
+   "dur": 13.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "2b2ebdb56938"
+  },
+  {
+   "key": "第3弾|27_スパサラのすべて",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "c8bc400ec3c4",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/c8bc400ec3c4.mp4",
+     "bytes": 17897470,
+     "audio": true,
+     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMあり.mp4"
+    },
+    {
+     "id": "90c03b55be72",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/90c03b55be72.mp4",
+     "bytes": 17815344,
+     "audio": true,
+     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMなし.mp4"
+    }
+   ],
+   "title": "スパサラのすべて",
+   "num": "27",
+   "poster": "media/t/c8bc400ec3c4.jpg",
+   "preview": "media/p/c8bc400ec3c4.mp4",
+   "dur": 18.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "c8bc400ec3c4"
+  },
+  {
+   "key": "第3弾|08_ポテトウインナー分解",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "772776c2632f",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/772776c2632f.mp4",
+     "bytes": 14494610,
+     "audio": true,
+     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMあり.mp4"
+    },
+    {
+     "id": "d049355be86e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/d049355be86e.mp4",
+     "bytes": 14416094,
+     "audio": true,
+     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMなし.mp4"
+    }
+   ],
+   "title": "ポテトウインナー分解",
+   "num": "08",
+   "poster": "media/t/772776c2632f.jpg",
+   "preview": "media/p/772776c2632f.mp4",
+   "dur": 13.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "772776c2632f"
+  },
+  {
+   "key": "第3弾|20_店長ハマさんの開店前",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0d008a5d6754",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0d008a5d6754.mp4",
+     "bytes": 12434398,
+     "audio": true,
+     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMあり.mp4"
+    },
+    {
+     "id": "633a67846b9e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/633a67846b9e.mp4",
+     "bytes": 12414133,
+     "audio": true,
+     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMなし.mp4"
+    }
+   ],
+   "title": "店長ハマさんの開店前",
+   "num": "20",
+   "poster": "media/t/0d008a5d6754.jpg",
+   "preview": "media/p/0d008a5d6754.mp4",
+   "dur": 14.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "0d008a5d6754"
+  },
+  {
+   "key": "第3弾|06_仕上げの順番クイズ",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "295b65b2d870",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/295b65b2d870.mp4",
+     "bytes": 16612385,
+     "audio": true,
+     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMあり.mp4"
+    },
+    {
+     "id": "1cf3f47729a6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/1cf3f47729a6.mp4",
+     "bytes": 16583140,
+     "audio": true,
+     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMなし.mp4"
+    }
+   ],
+   "title": "仕上げの順番クイズ",
+   "num": "06",
+   "poster": "media/t/295b65b2d870.jpg",
+   "preview": "media/p/295b65b2d870.mp4",
+   "dur": 18.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "295b65b2d870"
+  },
+  {
+   "key": "第3弾|23_盛り付け3分半を15秒で",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "5ad382e5e0eb",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/5ad382e5e0eb.mp4",
+     "bytes": 10759203,
+     "audio": true,
+     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMあり.mp4"
+    },
+    {
+     "id": "708b91570d2d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/708b91570d2d.mp4",
+     "bytes": 10645214,
+     "audio": true,
+     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMなし.mp4"
+    }
+   ],
+   "title": "盛り付け3分半を15秒で",
+   "num": "23",
+   "poster": "media/t/5ad382e5e0eb.jpg",
+   "preview": "media/p/5ad382e5e0eb.mp4",
+   "dur": 15.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "5ad382e5e0eb"
+  },
+  {
+   "key": "第3弾|11_せんスパ10食",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "f64265748ec6",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f64265748ec6.mp4",
+     "bytes": 14006722,
+     "audio": true,
+     "filename": "あん庵_第3弾_11_せんスパ10食_BGMあり.mp4"
+    },
+    {
+     "id": "24c7432a2230",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/24c7432a2230.mp4",
+     "bytes": 13997533,
+     "audio": true,
+     "filename": "あん庵_第3弾_11_せんスパ10食_BGMなし.mp4"
+    }
+   ],
+   "title": "せんスパ10食",
+   "num": "11",
+   "poster": "media/t/f64265748ec6.jpg",
+   "preview": "media/p/f64265748ec6.mp4",
+   "dur": 14.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "f64265748ec6"
+  },
+  {
+   "key": "第3弾|14_招き猫何匹",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "721194ef4a99",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/721194ef4a99.mp4",
+     "bytes": 16441882,
+     "audio": true,
+     "filename": "あん庵_第3弾_14_招き猫何匹_BGMあり.mp4"
+    },
+    {
+     "id": "01e628393839",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/01e628393839.mp4",
+     "bytes": 16360134,
+     "audio": true,
+     "filename": "あん庵_第3弾_14_招き猫何匹_BGMなし.mp4"
+    }
+   ],
+   "title": "招き猫何匹",
+   "num": "14",
+   "poster": "media/t/721194ef4a99.jpg",
+   "preview": "media/p/721194ef4a99.mp4",
+   "dur": 17.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "721194ef4a99"
+  },
+  {
    "key": "第3弾|19_手書きの店",
    "series": "第3弾",
    "variants": [
