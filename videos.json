@@ -7,6 +7,38 @@
  ],
  "items": [
   {
+   "key": "第3弾|18_照明の色で選ぶ席",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "57f9fcf2b857",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/57f9fcf2b857.mp4",
+     "bytes": 14039898,
+     "audio": true,
+     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMあり.mp4"
+    },
+    {
+     "id": "5c95939b230c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/5c95939b230c.mp4",
+     "bytes": 13895907,
+     "audio": true,
+     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMなし.mp4"
+    }
+   ],
+   "title": "照明の色で選ぶ席",
+   "num": "18",
+   "poster": "media/t/57f9fcf2b857.jpg",
+   "preview": "media/p/57f9fcf2b857.mp4",
+   "dur": 14.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "57f9fcf2b857"
+  },
+  {
    "key": "第3弾|12_ひとりでカウンター",
    "series": "第3弾",
    "variants": [
