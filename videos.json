@@ -24,7 +24,7 @@
      "label": "BGMなし",
      "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
      "src": "media/o/9155eb897e8d.mp4",
-     "bytes": 13899515,
+     "bytes": 13899959,
      "audio": true,
      "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMなし.mp4"
     }
@@ -50,6 +50,15 @@
      "bytes": 19089802,
      "audio": true,
      "filename": "あん庵_第3弾_04_炎3連発_BGMあり.mp4"
+    },
+    {
+     "id": "114564d6c873",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/114564d6c873.mp4",
+     "bytes": 19090075,
+     "audio": true,
+     "filename": "あん庵_第3弾_04_炎3連発_BGMなし.mp4"
     }
    ],
    "title": "炎3連発",
