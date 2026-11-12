@@ -315,18 +315,25 @@
     readyFile = null;
     $('#saveTitle').textContent = it.title;
     $('#saveRes').textContent = `${it.w}×${it.h}`;
-    $('#saveOptions').innerHTML = it.variants.map((v, i) => `
-      <div class="opt" data-v="${i}">
-        <div class="opt-head"><b>${esc(v.label)}</b><span>${fmtMB(v.bytes)}・${fmtDur(it.dur)}</span></div>
-        <p>${esc(v.note)}${v.audio ? '' : '（音声なし）'}</p>
+    // 保存できるもの：動画（BGMあり／なし）＋サムネ画像
+    const opts = it.variants.map(v => ({ ...v, type: 'video/mp4', kind: 'video' }));
+    if (it.thumb) opts.push({ ...it.thumb, kind: 'image', type: 'image/jpeg', label: 'サムネ画像',
+      note: it.thumb.designed ? '投稿の表紙（カバー）に使う画像' : '動画の1コマを切り出した画像（表紙用）' });
+    $('#save')._opts = opts;
+    $('#saveOptions').innerHTML = opts.map((v, i) => `
+      <div class="opt ${v.kind === 'image' ? 'opt-img' : ''}" data-v="${i}">
+        ${v.kind === 'image' ? `<img class="opt-thumb" src="${esc(v.src)}" alt="">` : ''}
+        <div class="opt-head"><b>${esc(v.label)}</b><span>${v.kind === 'image'
+          ? `${v.w}×${v.h}・${fmtMB(v.bytes)}` : `${fmtMB(v.bytes)}・${fmtDur(it.dur)}`}</span></div>
+        <p>${esc(v.note)}${v.kind === 'video' && !v.audio ? '（音声なし）' : ''}</p>
         <button class="btn go"><span class="bar"></span>${ICON.save}<span class="lab">${PREFER_SHARE ? '写真に保存する' : '端末に保存する'}</span></button>
         ${PREFER_SHARE ? '<button class="sub-link dl">ファイルとして保存（「ファイル」アプリへ）</button>' : (canShareFiles ? '<button class="sub-link sh">共有メニューで送る（LINE・ドライブなど）</button>' : '')}
       </div>`).join('');
     $('#howto').innerHTML = PREFER_SHARE
-      ? '押すと動画を読み込み、ボタンが白くなります。もう一度押すと共有メニューが開くので<b>「ビデオを保存」</b>を選ぶと写真アプリに入ります。'
+      ? '押すと読み込み、ボタンが白くなります。もう一度押すと共有メニューが開くので、動画は<b>「ビデオを保存」</b>、サムネは<b>「画像を保存」</b>を選ぶと写真アプリに入ります。'
       : IS_ANDROID
-        ? '保存した動画は「ダウンロード」フォルダに入り、ギャラリーやフォトアプリから投稿に使えます。'
-        : '保存した動画はパソコンの「ダウンロード」フォルダに入ります。';
+        ? '保存した動画・サムネは「ダウンロード」フォルダに入り、ギャラリーやフォトアプリから投稿に使えます。'
+        : '保存した動画・サムネはパソコンの「ダウンロード」フォルダに入ります。';
     $('#save').dataset.id = it.id;
     $('#backdrop').hidden = false; $('#save').hidden = false;
     $('#save')._item = it;
@@ -336,13 +343,13 @@
     const opt = e.target.closest('.opt');
     if (!opt) return;
     const it = $('#save')._item;
-    const v = it.variants[+opt.dataset.v];
+    const v = $('#save')._opts[+opt.dataset.v];
     const btn = $('.go', opt);
 
     // 2回目のタップ：読み込み済みなら共有メニューを開く（iPhoneはタップ直後でないと開けないため2段階）
-    if (e.target.closest('.go') && btn.classList.contains('ready') && readyFile) {
+    if (e.target.closest('.go') && btn.classList.contains('ready') && opt._file) {
       try {
-        await navigator.share({ files: [readyFile], title: it.title });
+        await navigator.share({ files: [opt._file], title: it.title });
         markSaved(btn, it);
       } catch (err) {
         if (err.name !== 'AbortError') { toast('共有メニューを開けませんでした。下の「ファイルとして保存」を試してください', 4000); }
@@ -368,16 +375,16 @@
     const lab = $('.lab', btn), bar = $('.bar', btn);
     lab.textContent = '読み込み中… 0%';
     try {
-      const blob = await fetchWithProgress(v.src, saveCtl.signal, p => {
+      const blob = await fetchWithProgress(v.src, v.type, saveCtl.signal, p => {
         bar.style.width = `${p * 100}%`; lab.textContent = `読み込み中… ${Math.round(p * 100)}%`;
       });
-      const file = new File([blob], v.filename, { type: 'video/mp4' });
+      const file = new File([blob], v.filename, { type: v.type });
       btn.disabled = false; bar.style.width = '0';
       if (mode === 'download') {
         saveBlob(blob, v.filename);
         markSaved(btn, it);
       } else {
-        readyFile = file;
+        opt._file = file;
         btn.classList.add('ready');
         btn.querySelector('svg').outerHTML = ICON.share;
         lab.textContent = 'もう一度押して保存（共有メニュー）';
@@ -411,7 +418,7 @@
     }
   }
 
-  async function fetchWithProgress(url, signal, onp) {
+  async function fetchWithProgress(url, type, signal, onp) {
     const res = await fetch(url, { signal, cache: 'force-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const total = +res.headers.get('content-length') || 0;
@@ -423,7 +430,7 @@
       if (done) break;
       chunks.push(value); got += value.length; onp(Math.min(got / total, 1));
     }
-    return new Blob(chunks, { type: 'video/mp4' });
+    return new Blob(chunks, { type });
   }
 
   function saveBlob(blob, name) {
@@ -449,6 +456,7 @@
       if (base) for (const it of d.items) {
         it.poster = base + it.poster; it.preview = base + it.preview;
         for (const v of it.variants) v.src = base + v.src;
+        if (it.thumb) it.thumb.src = base + it.thumb.src;
       }
       DATA = d;
       const f = store.get('anan-filter', 'all');
