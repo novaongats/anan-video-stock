@@ -207,46 +207,6 @@
    }
   },
   {
-   "key": "第3弾|21_入口から席まで7秒",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "1ca05a450fb3",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/1ca05a450fb3.mp4?v=1794514215",
-     "bytes": 14578516,
-     "audio": true,
-     "filename": "あん庵_第3弾_21_入口から席まで7秒_BGMあり.mp4"
-    },
-    {
-     "id": "b97e2b714ad1",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/b97e2b714ad1.mp4?v=1794514215",
-     "bytes": 14561199,
-     "audio": true,
-     "filename": "あん庵_第3弾_21_入口から席まで7秒_BGMなし.mp4"
-    }
-   ],
-   "title": "入口から席まで7秒",
-   "num": "21",
-   "poster": "media/t/1ca05a450fb3.jpg?v=1794514215",
-   "preview": "media/p/1ca05a450fb3.mp4?v=1794514215",
-   "dur": 14.1,
-   "w": 1080,
-   "h": 1920,
-   "id": "1ca05a450fb3",
-   "thumb": {
-    "src": "media/s/1ca05a450fb3.jpg?v=1794514215",
-    "bytes": 284608,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_21_入口から席まで7秒_サムネ.jpg"
-   }
-  },
-  {
    "key": "第3弾|16_どこに座る",
    "series": "第3弾",
    "variants": [

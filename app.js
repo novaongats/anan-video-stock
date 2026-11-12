@@ -14,6 +14,7 @@
     mute: '<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.6 3 2.7-2.7-1.4-1.4-2.7 2.7-2.7-2.7-1.4 1.4 2.7 2.7-2.7 2.7 1.4 1.4 2.7-2.7 2.7 2.7 1.4-1.4-2.7-2.7z"/></svg>',
     sound: '<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>',
     play: '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>',
+    phone: '<svg viewBox="0 0 24 24"><path d="M8 1.5h8A2.5 2.5 0 0 1 18.5 4v16a2.5 2.5 0 0 1-2.5 2.5H8A2.5 2.5 0 0 1 5.5 20V4A2.5 2.5 0 0 1 8 1.5zm0 2a.5.5 0 0 0-.5.5v16c0 .3.2.5.5.5h8c.3 0 .5-.2.5-.5V4a.5.5 0 0 0-.5-.5h-1.3l-.4.8h-3.6l-.4-.8H8zm2.3 6.2 4.6 2.8-4.6 2.8V9.7z"/></svg>',
     share: '<svg viewBox="0 0 24 24"><path d="M12 2.6 7.3 7.3l1.4 1.4L11 6.4V15h2V6.4l2.3 2.3 1.4-1.4L12 2.6zM5 11v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9h-2v9H7v-9H5z"/></svg>',
   };
 
@@ -89,9 +90,10 @@
       <div class="actions">
         <button class="act sound" aria-label="音のオン・オフ"><span class="ic">${muted ? ICON.mute : ICON.sound}</span><span class="t">${muted ? '音なし' : '音あり'}</span></button>
         <button class="act done-btn ${posted.has(it.id) ? 'done' : ''}" aria-label="投稿済みにする"><span class="ic">${ICON.check}</span><span class="t">${posted.has(it.id) ? '投稿済み' : '未投稿'}</span></button>
+        <button class="act igp" aria-label="インスタでの見え方"><span class="ic">${ICON.phone}</span><span>インスタ表示</span></button>
         <button class="act save" aria-label="保存して使う"><span class="ic">${ICON.save}</span><span>保存して使う</span></button>
       </div>
-      <div class="progress"><i></i></div>
+      <div class="seek" aria-label="再生位置（指で動かせます）"><span class="seek-time"></span><div class="progress"><i><b></b></i></div></div>
     </article>`;
   }
 
@@ -211,14 +213,54 @@
   }, true);
   feed.addEventListener('timeupdate', e => {
     const v = e.target, s = v.closest('.slide');
+    if (seeking && seeking.v === v) return;   // 指で動かしている間は上書きしない
     if (s && v.duration) $('.progress i', s).style.width = `${(v.currentTime / v.duration) * 100}%`;
   }, true);
+
+  // ---- 再生バーを指で動かす（戻す・進める） ----
+  let seeking = null;
+  function seekTo(e) {
+    const { sk, v } = seeking;
+    const r = sk.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
+    const t = p * v.duration;
+    seeking.t = t;
+    if (Math.abs(v.currentTime - t) > 0.04) v.currentTime = t;
+    $('.progress i', sk).style.width = `${p * 100}%`;
+    const lab = $('.seek-time', sk);
+    lab.textContent = `${fmtDur(t)} / ${fmtDur(v.duration)}`;
+    lab.style.left = `${Math.min(Math.max(p * 100, 12), 88)}%`;
+  }
+  feed.addEventListener('pointerdown', e => {
+    const sk = e.target.closest('.seek');
+    if (!sk) return;
+    const slide = sk.closest('.slide');
+    const v = playerFor(slide);
+    if (v._idx !== +slide.dataset.idx || !v.duration) return;
+    e.preventDefault();
+    try { sk.setPointerCapture(e.pointerId); } catch {}
+    seeking = { sk, slide, v, wasPaused: v.paused };
+    v.pause();
+    sk.classList.add('drag');
+    seekTo(e);
+  });
+  feed.addEventListener('pointermove', e => { if (seeking) { e.preventDefault(); seekTo(e); } });
+  const endSeek = () => {
+    if (!seeking) return;
+    const { sk, slide, wasPaused } = seeking;
+    seeking = null;
+    sk.classList.remove('drag');
+    if (!wasPaused) play(slide);
+  };
+  feed.addEventListener('pointerup', endSeek);
+  feed.addEventListener('pointercancel', endSeek);
 
   feed.addEventListener('click', e => {
     const slide = e.target.closest('.slide');
     if (!slide) return;
     const it = list[+slide.dataset.idx];
     if (e.target.closest('.act.save')) return openSave(it);
+    if (e.target.closest('.act.igp')) return openIG(it, playerFor(slide));
     if (e.target.closest('.act.sound')) {
       muted = !muted;
       store.set('anan-muted', muted);
@@ -263,7 +305,7 @@
 
   // キーボード（PC確認用）
   document.addEventListener('keydown', e => {
-    if (!$('#save').hidden || !$('#grid').hidden) { if (e.key === 'Escape') closeSheets(); return; }
+    if (!$('#save').hidden || !$('#grid').hidden || !$('#ig').hidden) { if (e.key === 'Escape') closeSheets(); return; }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       feed.scrollBy({ top: (e.key === 'ArrowDown' ? 1 : -1) * feed.clientHeight, behavior: 'smooth' });
@@ -292,12 +334,85 @@
     activate(s);
   });
 
+  // ---- インスタでの見え方 ----
+  const igV = document.createElement('video');
+  igV.playsInline = true; igV.loop = true; igV.muted = true; igV.preload = 'auto';
+  igV.setAttribute('playsinline', ''); igV.setAttribute('webkit-playsinline', '');
+  $('#igMedia').prepend(igV);
+  const IG_NOTE = {
+    story: 'ストーリーズ：上の名前の帯と、下の「メッセージを送信」付近に重なる所は見えにくくなります。',
+    reel: 'リール：下の名前・説明文・音源の表示と、右のボタン列が動画に重なります。大事な文字は真ん中寄りに。',
+    grid: 'プロフィール：一覧では上下が切れて縦3:横4で並びます（赤い枠がこの動画）。表紙はサムネ画像です。',
+  };
+  let igMode = store.get('anan-igmode', 'story');
+  if (!IG_NOTE[igMode]) igMode = 'story';
+
+  function igSetMode(m) {
+    igMode = m; store.set('anan-igmode', m);
+    $('#igScreen').dataset.mode = m;
+    document.querySelectorAll('[data-ig]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.ig === m)));
+    $('#igNote').textContent = IG_NOTE[m];
+    $('#igSafeChk').closest('label').hidden = m === 'grid';
+    $('#igSound').hidden = m === 'grid';
+    if (m === 'grid') igV.pause(); else igPlay();
+  }
+  function igPlay() {
+    igV.muted = muted;
+    $('#igScreen').classList.remove('paused');
+    const p = igV.play();
+    if (p) p.catch(err => {
+      if (err && err.name === 'AbortError') return;
+      if (!igV.muted) { igV.muted = true; igV.play().catch(() => $('#igScreen').classList.add('paused')); }
+      else $('#igScreen').classList.add('paused');
+    });
+  }
+  function igSyncSound() { $('#igSound').textContent = muted ? '🔇 音なし' : '🔊 音あり'; }
+
+  function openIG(it, from) {
+    pauseAll();
+    $('#igCap').textContent = `${it.title} #あん庵`;
+    igV.src = it.preview;
+    if (from && from._idx >= 0 && list[from._idx] === it && from.currentTime) igV.currentTime = from.currentTime;
+    // プロフィール一覧：この動画を先頭に、ほかの動画を並べる
+    const others = list.filter(x => x !== it).slice(0, 11);
+    const cover = it.thumb ? it.thumb.src : it.poster;
+    $('#igGrid').innerHTML = [`<div class="pf-cell me"><img src="${esc(cover)}" alt=""><span class="ico reel"></span></div>`]
+      .concat(others.map(x => `<div class="pf-cell"><img src="${esc(x.poster)}" alt="" loading="lazy"><span class="ico reel"></span></div>`)).join('');
+    igSyncSound();
+    $('#ig').hidden = false;
+    igSetMode(igMode);
+  }
+  function closeIG() {
+    $('#ig').hidden = true;
+    igV.pause(); igV.removeAttribute('src'); igV.load();
+  }
+  $('#ig').addEventListener('click', e => {
+    const t = e.target.closest('[data-ig]');
+    if (t) return igSetMode(t.dataset.ig);
+    if (e.target.closest('#igSound')) {
+      muted = !muted; store.set('anan-muted', muted);
+      igV.muted = muted; if (igV.paused) igPlay();
+      igSyncSound(); syncSoundButtons();
+      return;
+    }
+    if (e.target.closest('#igMedia') && igMode !== 'grid') {
+      if (igV.paused) igPlay(); else { igV.pause(); $('#igScreen').classList.add('paused'); }
+    }
+  });
+  $('#igSafeChk').addEventListener('change', e => $('#igScreen').classList.toggle('show-safe', e.target.checked));
+  igV.addEventListener('timeupdate', () => {
+    if (!igV.duration) return;
+    const w = `${(igV.currentTime / igV.duration) * 100}%`;
+    $('.st-prog i').style.width = w; $('.rl-prog i').style.width = w;
+  });
+
   // ---- 保存 ----
   let saveCtl = null;           // ダウンロード中の中断用
   let readyFile = null;         // 共有メニューに渡すファイル
 
   function closeSheets() {
     $('#save').hidden = true; $('#backdrop').hidden = true; $('#grid').hidden = true;
+    if (!$('#ig').hidden) closeIG();
     saveCtl?.abort(); saveCtl = null; readyFile = null;
     if (current) play(current);
   }

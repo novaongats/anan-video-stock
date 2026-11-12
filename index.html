@@ -11,7 +11,7 @@
 <title>あん庵 動画ストック</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
-<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="app.css?v=4">
 </head>
 <body>
 <div id="app">
@@ -52,8 +52,63 @@
   <p class="howto" id="howto"></p>
 </section>
 
+<!-- インスタでの見え方 -->
+<section class="ig" id="ig" hidden aria-label="インスタでの見え方">
+  <div class="ig-bar">
+    <div class="ig-tabs" role="tablist">
+      <button data-ig="story" aria-pressed="true">ストーリーズ</button>
+      <button data-ig="reel" aria-pressed="false">リール</button>
+      <button data-ig="grid" aria-pressed="false">プロフィール</button>
+    </div>
+    <button class="close" data-close aria-label="閉じる">×</button>
+  </div>
+  <div class="ig-stage"><div class="ig-screen" id="igScreen" data-mode="story">
+    <div class="ig-status"><span>9:41</span><span class="ig-bat"></span></div>
+    <div class="ig-media" id="igMedia">
+      <div class="ig-safe" aria-hidden="true">
+        <i class="z top"></i><i class="z bottom"></i><i class="z right"></i>
+      </div>
+      <!-- ストーリーズの表示 -->
+      <div class="ig-ui ui-story">
+        <div class="st-prog"><i></i></div>
+        <div class="st-head"><span class="av">庵</span><b>あん庵</b><span class="dim">1時間</span><span class="sp"></span><span class="ico dots"></span><span class="ico x"></span></div>
+      </div>
+      <!-- リールの表示 -->
+      <div class="ig-ui ui-reel">
+        <div class="rl-top"><b>リール</b><span class="ico cam"></span></div>
+        <div class="rl-side">
+          <span><i class="ico heart"></i>1,204</span><span><i class="ico bubble"></i>36</span>
+          <span><i class="ico plane"></i>88</span><span><i class="ico dots"></i></span><span class="rl-disc"></span>
+        </div>
+        <div class="rl-info">
+          <div class="rl-user"><span class="av">庵</span><b>あん庵</b><span class="fl">フォロー</span></div>
+          <p class="rl-cap" id="igCap"></p>
+          <div class="rl-aud">♪ あん庵・オリジナル音源</div>
+        </div>
+        <div class="rl-prog"><i></i></div>
+      </div>
+      <div class="ig-paused" aria-hidden="true"></div>
+    </div>
+    <div class="ig-below ui-story"><span class="msg">メッセージを送信</span><span class="ico heart"></span><span class="ico plane"></span></div>
+    <div class="ig-below ui-reel ig-nav"><span class="ico home"></span><span class="ico search"></span><span class="ico plus"></span><span class="ico reel on"></span><span class="av sm">庵</span></div>
+    <!-- プロフィール一覧 -->
+    <div class="ig-prof">
+      <div class="pf-head"><span class="av lg">庵</span><div><b>あん庵</b><div class="pf-nums"><span><b>128</b>投稿</span><span><b>2,450</b>フォロワー</span><span><b>180</b>フォロー中</span></div></div></div>
+      <div class="pf-tabs"><span class="on">投稿</span><span>リール</span></div>
+      <div class="pf-grid" id="igGrid"></div>
+    </div>
+  </div></div>
+  <div class="ig-foot">
+    <p class="ig-note" id="igNote"></p>
+    <div class="ig-ctl">
+      <label class="ig-chk"><input type="checkbox" id="igSafeChk"> 文字が隠れやすい所を表示</label>
+      <button class="ghost" id="igSound"></button>
+    </div>
+  </div>
+</section>
+
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="app.js"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
