@@ -15,7 +15,7 @@
      "label": "BGMあり",
      "note": "そのまま投稿できる完成版",
      "src": "media/o/293a3d73362d.mp4",
-     "bytes": 13995495,
+     "bytes": 13995623,
      "audio": true,
      "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMあり.mp4"
     },
@@ -37,6 +37,29 @@
    "w": 1080,
    "h": 1920,
    "id": "293a3d73362d"
+  },
+  {
+   "key": "第3弾|04_炎3連発",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "cd3c7eab2a21",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/cd3c7eab2a21.mp4",
+     "bytes": 19089802,
+     "audio": true,
+     "filename": "あん庵_第3弾_04_炎3連発_BGMあり.mp4"
+    }
+   ],
+   "title": "炎3連発",
+   "num": "04",
+   "poster": "media/t/cd3c7eab2a21.jpg",
+   "preview": "media/p/cd3c7eab2a21.mp4",
+   "dur": 12.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "cd3c7eab2a21"
   },
   {
    "key": "リール|あん庵_リール_第2版",
