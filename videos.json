@@ -1,0 +1,959 @@
+{
+ "series": [
+  "第3弾",
+  "リール",
+  "第2弾",
+  "第1弾"
+ ],
+ "items": [
+  {
+   "key": "第3弾|12_ひとりでカウンター",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "293a3d73362d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/293a3d73362d.mp4",
+     "bytes": 13995495,
+     "audio": true,
+     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMあり.mp4"
+    },
+    {
+     "id": "9155eb897e8d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/9155eb897e8d.mp4",
+     "bytes": 13899515,
+     "audio": true,
+     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMなし.mp4"
+    }
+   ],
+   "title": "ひとりでカウンター",
+   "num": "12",
+   "poster": "media/t/293a3d73362d.jpg",
+   "preview": "media/p/293a3d73362d.mp4",
+   "dur": 12.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "293a3d73362d"
+  },
+  {
+   "key": "リール|あん庵_リール_第2版",
+   "series": "リール",
+   "variants": [
+    {
+     "id": "9541ec8820c7",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/9541ec8820c7.mp4",
+     "bytes": 5621921,
+     "audio": true,
+     "filename": "あん庵_リール_第2版_BGMあり.mp4"
+    },
+    {
+     "id": "2c454172886b",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/2c454172886b.mp4",
+     "bytes": 5245675,
+     "audio": false,
+     "filename": "あん庵_リール_第2版_BGMなし.mp4"
+    }
+   ],
+   "title": "リール 第2版",
+   "num": null,
+   "poster": "media/t/9541ec8820c7.jpg",
+   "preview": "media/p/9541ec8820c7.mp4",
+   "dur": 15.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "9541ec8820c7"
+  },
+  {
+   "key": "リール|第1版|あん庵_リール",
+   "series": "リール",
+   "variants": [
+    {
+     "id": "396e2daa40a7",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/396e2daa40a7.mp4",
+     "bytes": 7047670,
+     "audio": true,
+     "filename": "あん庵_リール（第1版）_BGMあり.mp4"
+    },
+    {
+     "id": "eea9c2b6159e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/eea9c2b6159e.mp4",
+     "bytes": 6595458,
+     "audio": false,
+     "filename": "あん庵_リール（第1版）_BGMなし.mp4"
+    }
+   ],
+   "title": "リール（第1版）",
+   "num": null,
+   "poster": "media/t/396e2daa40a7.jpg",
+   "preview": "media/p/396e2daa40a7.mp4",
+   "dur": 18.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "396e2daa40a7"
+  },
+  {
+   "key": "第2弾|30_メニュールーレット",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "7c78d0fc98a9",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/7c78d0fc98a9.mp4",
+     "bytes": 16055532,
+     "audio": true,
+     "filename": "あん庵_第2弾_30_メニュールーレット_BGMあり.mp4"
+    },
+    {
+     "id": "57957237147b",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/57957237147b.mp4",
+     "bytes": 15977650,
+     "audio": true,
+     "filename": "あん庵_第2弾_30_メニュールーレット_BGMなし.mp4"
+    }
+   ],
+   "title": "メニュールーレット",
+   "num": "30",
+   "poster": "media/t/7c78d0fc98a9.jpg",
+   "preview": "media/p/7c78d0fc98a9.mp4",
+   "dur": 20.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "7c78d0fc98a9"
+  },
+  {
+   "key": "第2弾|29_早送り",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "f5eb3ecea3e6",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f5eb3ecea3e6.mp4",
+     "bytes": 17064543,
+     "audio": true,
+     "filename": "あん庵_第2弾_29_早送り_BGMあり.mp4"
+    },
+    {
+     "id": "19f8b6c7cd5c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/19f8b6c7cd5c.mp4",
+     "bytes": 17026150,
+     "audio": true,
+     "filename": "あん庵_第2弾_29_早送り_BGMなし.mp4"
+    }
+   ],
+   "title": "早送り",
+   "num": "29",
+   "poster": "media/t/f5eb3ecea3e6.jpg",
+   "preview": "media/p/f5eb3ecea3e6.mp4",
+   "dur": 20.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "f5eb3ecea3e6"
+  },
+  {
+   "key": "第2弾|28_あん庵の1日",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "6ba6484a0dc6",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/6ba6484a0dc6.mp4",
+     "bytes": 22603277,
+     "audio": true,
+     "filename": "あん庵_第2弾_28_あん庵の1日_BGMあり.mp4"
+    }
+   ],
+   "title": "あん庵の1日",
+   "num": "28",
+   "poster": "media/t/6ba6484a0dc6.jpg",
+   "preview": "media/p/6ba6484a0dc6.mp4",
+   "dur": 21.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "6ba6484a0dc6"
+  },
+  {
+   "key": "第2弾|27_天気予報",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "755b43c8a22f",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/755b43c8a22f.mp4",
+     "bytes": 18921826,
+     "audio": true,
+     "filename": "あん庵_第2弾_27_天気予報_BGMあり.mp4"
+    }
+   ],
+   "title": "天気予報",
+   "num": "27",
+   "poster": "media/t/755b43c8a22f.jpg",
+   "preview": "media/p/755b43c8a22f.mp4",
+   "dur": 18.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "755b43c8a22f"
+  },
+  {
+   "key": "第2弾|26_せんスパのレシート",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "3642ebda7f85",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/3642ebda7f85.mp4",
+     "bytes": 15275332,
+     "audio": true,
+     "filename": "あん庵_第2弾_26_せんスパのレシート_BGMあり.mp4"
+    }
+   ],
+   "title": "せんスパのレシート",
+   "num": "26",
+   "poster": "media/t/3642ebda7f85.jpg",
+   "preview": "media/p/3642ebda7f85.mp4",
+   "dur": 21.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "3642ebda7f85"
+  },
+  {
+   "key": "第2弾|25_ミラカン解剖図",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "3ddb1aba53da",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/3ddb1aba53da.mp4",
+     "bytes": 5603071,
+     "audio": true,
+     "filename": "あん庵_第2弾_25_ミラカン解剖図_BGMあり.mp4"
+    }
+   ],
+   "title": "ミラカン解剖図",
+   "num": "25",
+   "poster": "media/t/3ddb1aba53da.jpg",
+   "preview": "media/p/3ddb1aba53da.mp4",
+   "dur": 18.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "3ddb1aba53da"
+  },
+  {
+   "key": "第2弾|24_数字で見る",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "54a75b435d89",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/54a75b435d89.mp4",
+     "bytes": 7270172,
+     "audio": true,
+     "filename": "あん庵_第2弾_24_数字で見る_BGMあり.mp4"
+    }
+   ],
+   "title": "数字で見る",
+   "num": "24",
+   "poster": "media/t/54a75b435d89.jpg",
+   "preview": "media/p/54a75b435d89.mp4",
+   "dur": 19.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "54a75b435d89"
+  },
+  {
+   "key": "第2弾|23_POV検索",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "1d665e41e515",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/1d665e41e515.mp4",
+     "bytes": 18672096,
+     "audio": true,
+     "filename": "あん庵_第2弾_23_POV検索_BGMあり.mp4"
+    },
+    {
+     "id": "8166b57839cf",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/8166b57839cf.mp4",
+     "bytes": 18588103,
+     "audio": true,
+     "filename": "あん庵_第2弾_23_POV検索_BGMなし.mp4"
+    }
+   ],
+   "title": "POV検索",
+   "num": "23",
+   "poster": "media/t/1d665e41e515.jpg",
+   "preview": "media/p/1d665e41e515.mp4",
+   "dur": 17.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "1d665e41e515"
+  },
+  {
+   "key": "第2弾|22_雑誌エディトリアル",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "571acbb9c8b4",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/571acbb9c8b4.mp4",
+     "bytes": 8392863,
+     "audio": true,
+     "filename": "あん庵_第2弾_22_雑誌エディトリアル_BGMあり.mp4"
+    },
+    {
+     "id": "9a1e1cbf6e58",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/9a1e1cbf6e58.mp4",
+     "bytes": 8273785,
+     "audio": true,
+     "filename": "あん庵_第2弾_22_雑誌エディトリアル_BGMなし.mp4"
+    }
+   ],
+   "title": "雑誌エディトリアル",
+   "num": "22",
+   "poster": "media/t/571acbb9c8b4.jpg",
+   "preview": "media/p/571acbb9c8b4.mp4",
+   "dur": 17.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "571acbb9c8b4"
+  },
+  {
+   "key": "第2弾|21_路線図",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "d9d8ac7ec0ab",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/d9d8ac7ec0ab.mp4",
+     "bytes": 12122598,
+     "audio": true,
+     "filename": "あん庵_第2弾_21_路線図_BGMあり.mp4"
+    }
+   ],
+   "title": "路線図",
+   "num": "21",
+   "poster": "media/t/d9d8ac7ec0ab.jpg",
+   "preview": "media/p/d9d8ac7ec0ab.mp4",
+   "dur": 23.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "d9d8ac7ec0ab"
+  },
+  {
+   "key": "第2弾|20_縦書き文字PV",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "f55a91fde959",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f55a91fde959.mp4",
+     "bytes": 16364142,
+     "audio": true,
+     "filename": "あん庵_第2弾_20_縦書き文字PV_BGMあり.mp4"
+    }
+   ],
+   "title": "縦書き文字PV",
+   "num": "20",
+   "poster": "media/t/f55a91fde959.jpg",
+   "preview": "media/p/f55a91fde959.mp4",
+   "dur": 16.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "f55a91fde959"
+  },
+  {
+   "key": "第2弾|19_動く文字",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "f072c05d34ba",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f072c05d34ba.mp4",
+     "bytes": 18104003,
+     "audio": true,
+     "filename": "あん庵_第2弾_19_動く文字_BGMあり.mp4"
+    },
+    {
+     "id": "bff902556ce5",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/bff902556ce5.mp4",
+     "bytes": 17987588,
+     "audio": true,
+     "filename": "あん庵_第2弾_19_動く文字_BGMなし.mp4"
+    }
+   ],
+   "title": "動く文字",
+   "num": "19",
+   "poster": "media/t/f072c05d34ba.jpg",
+   "preview": "media/p/f072c05d34ba.mp4",
+   "dur": 19.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "f072c05d34ba"
+  },
+  {
+   "key": "第2弾|18_オノマトペ漫画CM",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "f06370a1c2f9",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f06370a1c2f9.mp4",
+     "bytes": 15312525,
+     "audio": true,
+     "filename": "あん庵_第2弾_18_オノマトペ漫画CM_BGMあり.mp4"
+    }
+   ],
+   "title": "オノマトペ漫画CM",
+   "num": "18",
+   "poster": "media/t/f06370a1c2f9.jpg",
+   "preview": "media/p/f06370a1c2f9.mp4",
+   "dur": 16.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "f06370a1c2f9"
+  },
+  {
+   "key": "第2弾|17_人気TOP3",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "d02a3bafff99",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/d02a3bafff99.mp4",
+     "bytes": 18959558,
+     "audio": true,
+     "filename": "あん庵_第2弾_17_人気TOP3_BGMあり.mp4"
+    }
+   ],
+   "title": "人気TOP3",
+   "num": "17",
+   "poster": "media/t/d02a3bafff99.jpg",
+   "preview": "media/p/d02a3bafff99.mp4",
+   "dur": 20.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "d02a3bafff99"
+  },
+  {
+   "key": "第2弾|16_黒板の食べ方メモ",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "0870e1b1ac1a",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0870e1b1ac1a.mp4",
+     "bytes": 20491172,
+     "audio": true,
+     "filename": "あん庵_第2弾_16_黒板の食べ方メモ_BGMあり.mp4"
+    },
+    {
+     "id": "40ddc93601ce",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/40ddc93601ce.mp4",
+     "bytes": 20403053,
+     "audio": true,
+     "filename": "あん庵_第2弾_16_黒板の食べ方メモ_BGMなし.mp4"
+    }
+   ],
+   "title": "黒板の食べ方メモ",
+   "num": "16",
+   "poster": "media/t/0870e1b1ac1a.jpg",
+   "preview": "media/p/0870e1b1ac1a.mp4",
+   "dur": 25.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "0870e1b1ac1a"
+  },
+  {
+   "key": "第2弾|15_ゲーム攻略",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "1fdb804c7839",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/1fdb804c7839.mp4",
+     "bytes": 8491092,
+     "audio": true,
+     "filename": "あん庵_第2弾_15_ゲーム攻略_BGMあり.mp4"
+    }
+   ],
+   "title": "ゲーム攻略",
+   "num": "15",
+   "poster": "media/t/1fdb804c7839.jpg",
+   "preview": "media/p/1fdb804c7839.mp4",
+   "dur": 19.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "1fdb804c7839"
+  },
+  {
+   "key": "第2弾|14_昭和レトロポスター",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "fbb8f93c215d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/fbb8f93c215d.mp4",
+     "bytes": 16793341,
+     "audio": true,
+     "filename": "あん庵_第2弾_14_昭和レトロポスター_BGMあり.mp4"
+    }
+   ],
+   "title": "昭和レトロポスター",
+   "num": "14",
+   "poster": "media/t/fbb8f93c215d.jpg",
+   "preview": "media/p/fbb8f93c215d.mp4",
+   "dur": 18.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "fbb8f93c215d"
+  },
+  {
+   "key": "第2弾|13_クイズこれ何のアップ",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "844f3d993d82",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/844f3d993d82.mp4",
+     "bytes": 11745938,
+     "audio": true,
+     "filename": "あん庵_第2弾_13_クイズこれ何のアップ_BGMあり.mp4"
+    }
+   ],
+   "title": "クイズこれ何のアップ",
+   "num": "13",
+   "poster": "media/t/844f3d993d82.jpg",
+   "preview": "media/p/844f3d993d82.mp4",
+   "dur": 25.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "844f3d993d82"
+  },
+  {
+   "key": "第2弾|12_映画予告",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "9f122b1929a0",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/9f122b1929a0.mp4",
+     "bytes": 26107735,
+     "audio": true,
+     "filename": "あん庵_第2弾_12_映画予告_BGMあり.mp4"
+    }
+   ],
+   "title": "映画予告",
+   "num": "12",
+   "poster": "media/t/9f122b1929a0.jpg",
+   "preview": "media/p/9f122b1929a0.mp4",
+   "dur": 27.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "9f122b1929a0"
+  },
+  {
+   "key": "第2弾|11_ニュース速報",
+   "series": "第2弾",
+   "variants": [
+    {
+     "id": "7b9fe4f99715",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/7b9fe4f99715.mp4",
+     "bytes": 18193349,
+     "audio": true,
+     "filename": "あん庵_第2弾_11_ニュース速報_BGMあり.mp4"
+    }
+   ],
+   "title": "ニュース速報",
+   "num": "11",
+   "poster": "media/t/7b9fe4f99715.jpg",
+   "preview": "media/p/7b9fe4f99715.mp4",
+   "dur": 21.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "7b9fe4f99715"
+  },
+  {
+   "key": "第1弾|10_お持ち帰りできます",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "8d483fc2f966",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/8d483fc2f966.mp4",
+     "bytes": 13044204,
+     "audio": true,
+     "filename": "あん庵_第1弾_10_お持ち帰りできます_BGMあり.mp4"
+    }
+   ],
+   "title": "お持ち帰りできます",
+   "num": "10",
+   "poster": "media/t/8d483fc2f966.jpg",
+   "preview": "media/p/8d483fc2f966.mp4",
+   "dur": 15.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "8d483fc2f966"
+  },
+  {
+   "key": "第1弾|09c_こだわり_濃厚あん",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "4adda43eeb61",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/4adda43eeb61.mp4",
+     "bytes": 10746565,
+     "audio": true,
+     "filename": "あん庵_第1弾_09c_こだわり_濃厚あん_BGMあり.mp4"
+    },
+    {
+     "id": "2bf3595e53b2",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/2bf3595e53b2.mp4",
+     "bytes": 10647746,
+     "audio": true,
+     "filename": "あん庵_第1弾_09c_こだわり_濃厚あん_BGMなし.mp4"
+    }
+   ],
+   "title": "こだわり 濃厚あん",
+   "num": "09c",
+   "poster": "media/t/4adda43eeb61.jpg",
+   "preview": "media/p/4adda43eeb61.mp4",
+   "dur": 12.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "4adda43eeb61"
+  },
+  {
+   "key": "第1弾|09b_こだわり_鉄板と卵",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "8a69d900554b",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/8a69d900554b.mp4",
+     "bytes": 9115211,
+     "audio": true,
+     "filename": "あん庵_第1弾_09b_こだわり_鉄板と卵_BGMあり.mp4"
+    },
+    {
+     "id": "bb70c34ab42a",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/bb70c34ab42a.mp4",
+     "bytes": 9014643,
+     "audio": true,
+     "filename": "あん庵_第1弾_09b_こだわり_鉄板と卵_BGMなし.mp4"
+    }
+   ],
+   "title": "こだわり 鉄板と卵",
+   "num": "09b",
+   "poster": "media/t/8a69d900554b.jpg",
+   "preview": "media/p/8a69d900554b.mp4",
+   "dur": 12.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "8a69d900554b"
+  },
+  {
+   "key": "第1弾|09a_こだわり_極太麺",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "f86afdf97373",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f86afdf97373.mp4",
+     "bytes": 8656460,
+     "audio": true,
+     "filename": "あん庵_第1弾_09a_こだわり_極太麺_BGMあり.mp4"
+    },
+    {
+     "id": "4d36cd848156",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/4d36cd848156.mp4",
+     "bytes": 8557921,
+     "audio": true,
+     "filename": "あん庵_第1弾_09a_こだわり_極太麺_BGMなし.mp4"
+    }
+   ],
+   "title": "こだわり 極太麺",
+   "num": "09a",
+   "poster": "media/t/f86afdf97373.jpg",
+   "preview": "media/p/f86afdf97373.mp4",
+   "dur": 12.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "f86afdf97373"
+  },
+  {
+   "key": "第1弾|08_開店前の仕込み",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "987f52252bde",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/987f52252bde.mp4",
+     "bytes": 27100191,
+     "audio": true,
+     "filename": "あん庵_第1弾_08_開店前の仕込み_BGMあり.mp4"
+    },
+    {
+     "id": "2f0cdffdc385",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/2f0cdffdc385.mp4",
+     "bytes": 27000561,
+     "audio": true,
+     "filename": "あん庵_第1弾_08_開店前の仕込み_BGMなし.mp4"
+    }
+   ],
+   "title": "開店前の仕込み",
+   "num": "08",
+   "poster": "media/t/987f52252bde.jpg",
+   "preview": "media/p/987f52252bde.mp4",
+   "dur": 21.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "987f52252bde"
+  },
+  {
+   "key": "第1弾|07_3回目でハマる",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "3420319dde58",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/3420319dde58.mp4",
+     "bytes": 18703360,
+     "audio": true,
+     "filename": "あん庵_第1弾_07_3回目でハマる_BGMあり.mp4"
+    },
+    {
+     "id": "de574ff96c56",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/de574ff96c56.mp4",
+     "bytes": 18597950,
+     "audio": true,
+     "filename": "あん庵_第1弾_07_3回目でハマる_BGMなし.mp4"
+    }
+   ],
+   "title": "3回目でハマる",
+   "num": "07",
+   "poster": "media/t/3420319dde58.jpg",
+   "preview": "media/p/3420319dde58.mp4",
+   "dur": 18.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "3420319dde58"
+  },
+  {
+   "key": "第1弾|06_あなたはどれ派",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "c3280678e499",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/c3280678e499.mp4",
+     "bytes": 6634647,
+     "audio": true,
+     "filename": "あん庵_第1弾_06_あなたはどれ派_BGMあり.mp4"
+    },
+    {
+     "id": "46c057b70277",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/46c057b70277.mp4",
+     "bytes": 6377321,
+     "audio": true,
+     "filename": "あん庵_第1弾_06_あなたはどれ派_BGMなし.mp4"
+    }
+   ],
+   "title": "あなたはどれ派",
+   "num": "06",
+   "poster": "media/t/c3280678e499.jpg",
+   "preview": "media/p/c3280678e499.mp4",
+   "dur": 17.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "c3280678e499"
+  },
+  {
+   "key": "第1弾|05_はじめての方へ_頼み方",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "155fc461e51e",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/155fc461e51e.mp4",
+     "bytes": 17477602,
+     "audio": true,
+     "filename": "あん庵_第1弾_05_はじめての方へ_頼み方_BGMあり.mp4"
+    }
+   ],
+   "title": "はじめての方へ 頼み方",
+   "num": "05",
+   "poster": "media/t/155fc461e51e.jpg",
+   "preview": "media/p/155fc461e51e.mp4",
+   "dur": 21.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "155fc461e51e"
+  },
+  {
+   "key": "第1弾|04_平日ランチ_せんスパ",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "64f02664b3fd",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/64f02664b3fd.mp4",
+     "bytes": 6314725,
+     "audio": true,
+     "filename": "あん庵_第1弾_04_平日ランチ_せんスパ_BGMあり.mp4"
+    }
+   ],
+   "title": "平日ランチ せんスパ",
+   "num": "04",
+   "poster": "media/t/64f02664b3fd.jpg",
+   "preview": "media/p/64f02664b3fd.mp4",
+   "dur": 10.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "64f02664b3fd"
+  },
+  {
+   "key": "第1弾|03_ミラカンができるまで_音だけ",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "2759ad4ff04f",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/2759ad4ff04f.mp4",
+     "bytes": 19811960,
+     "audio": true,
+     "filename": "あん庵_第1弾_03_ミラカンができるまで_音だけ（声なし企画）_BGMあり.mp4"
+    },
+    {
+     "id": "87adc9575e33",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/87adc9575e33.mp4",
+     "bytes": 19722518,
+     "audio": true,
+     "filename": "あん庵_第1弾_03_ミラカンができるまで_音だけ（声なし企画）_BGMなし.mp4"
+    }
+   ],
+   "title": "ミラカンができるまで 音だけ（声なし企画）",
+   "num": "03",
+   "poster": "media/t/2759ad4ff04f.jpg",
+   "preview": "media/p/2759ad4ff04f.mp4",
+   "dur": 19.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "2759ad4ff04f"
+  },
+  {
+   "key": "第1弾|02_八ツ面のあの店_入ってみた",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "9c41ce338bec",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/9c41ce338bec.mp4",
+     "bytes": 22192657,
+     "audio": true,
+     "filename": "あん庵_第1弾_02_八ツ面のあの店_入ってみた_BGMあり.mp4"
+    }
+   ],
+   "title": "八ツ面のあの店 入ってみた",
+   "num": "02",
+   "poster": "media/t/9c41ce338bec.jpg",
+   "preview": "media/p/9c41ce338bec.mp4",
+   "dur": 17.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "9c41ce338bec"
+  },
+  {
+   "key": "第1弾|01_あんかけスパって何_広告版",
+   "series": "第1弾",
+   "variants": [
+    {
+     "id": "1fbeab3825e9",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/1fbeab3825e9.mp4",
+     "bytes": 26716697,
+     "audio": true,
+     "filename": "あん庵_第1弾_01_あんかけスパって何_広告版_BGMあり.mp4"
+    }
+   ],
+   "title": "あんかけスパって何 広告版",
+   "num": "01",
+   "poster": "media/t/1fbeab3825e9.jpg",
+   "preview": "media/p/1fbeab3825e9.mp4",
+   "dur": 27.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "1fbeab3825e9"
+  }
+ ]
+}
