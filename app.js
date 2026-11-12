@@ -371,6 +371,7 @@
   function openIG(it, from) {
     pauseAll();
     $('#igCap').textContent = `${it.title} #あん庵`;
+    igV.poster = it.poster;   // 読み込み中も真っ黒にしない
     igV.src = it.preview;
     if (from && from._idx >= 0 && list[from._idx] === it && from.currentTime) igV.currentTime = from.currentTime;
     // プロフィール一覧：この動画を先頭に、ほかの動画を並べる
