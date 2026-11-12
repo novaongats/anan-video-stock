@@ -11,7 +11,7 @@
 <title>あん庵 動画ストック</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
-<link rel="stylesheet" href="app.css?v=5">
+<link rel="stylesheet" href="app.css?v=7">
 </head>
 <body>
 <div id="app">
@@ -36,6 +36,9 @@
   <div class="sheet-head">
     <h2>動画一覧 <small id="gridCount"></small></h2>
     <button class="close" data-close aria-label="閉じる">×</button>
+  </div>
+  <div class="grid-tools">
+    <label class="genre-sel"><span>ジャンル</span><select id="gridGenre" aria-label="ジャンルで絞り込む"></select></label>
   </div>
   <div class="grid" id="gridList"></div>
 </section>
@@ -99,16 +102,17 @@
     </div>
   </div></div>
   <div class="ig-foot">
-    <p class="ig-note" id="igNote"></p>
+    <p class="ig-note"><b class="ig-pos" id="igPos"></b><span id="igNote"></span></p>
     <div class="ig-ctl">
-      <label class="ig-chk"><input type="checkbox" id="igSafeChk"> 文字が隠れやすい所を表示</label>
+      <label class="ig-chk"><input type="checkbox" id="igSafeChk"> 隠れる所を表示</label>
       <button class="ghost" id="igSound"></button>
+      <button class="ig-save" id="igSave"><svg viewBox="0 0 24 24"><path d="M12 3a1 1 0 0 1 1 1v9.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.4L11 13.6V4a1 1 0 0 1 1-1zM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z"/></svg>保存して使う</button>
     </div>
   </div>
 </section>
 
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="app.js?v=5"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>

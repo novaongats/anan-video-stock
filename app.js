@@ -21,6 +21,7 @@
   // ---- 状態 ----
   let DATA = { series: [], items: [] };
   let filter = 'all';
+  let genre = '';               // ジャンルの絞り込み（'' は全部）
   let list = [];
   let muted = true;   // 起動時に保存済みの設定を読む（下の store 定義後）
   let current = null;           // いま見えているスライド
@@ -45,17 +46,37 @@
   }
 
   // ---- 絞り込み ----
+  const inGenre = i => !genre || i.genre === genre;
   function renderChips() {
-    const c = { all: DATA.items.length, todo: DATA.items.filter(i => !posted.has(i.id)).length, done: 0 };
+    const base = DATA.items.filter(inGenre);
+    const c = { all: base.length, todo: base.filter(i => !posted.has(i.id)).length, done: 0 };
     c.done = c.all - c.todo;
     const defs = [['all', 'すべて', c.all], ['todo', '未投稿', c.todo]];
-    for (const s of DATA.series) defs.push([`s:${s}`, s, DATA.items.filter(i => i.series === s).length]);
+    for (const s of DATA.series) defs.push([`s:${s}`, s, base.filter(i => i.series === s).length]);
     defs.push(['done', '投稿済み', c.done]);
-    chipsEl.innerHTML = defs.map(([k, l, n]) =>
+    chipsEl.innerHTML = (genre ? `<button class="chip genre-chip" data-genre-clear aria-label="ジャンルの絞り込みを解除">${esc(genre)}<span class="x">×</span></button>` : '') +
+      defs.map(([k, l, n]) =>
       `<button class="chip" data-filter="${esc(k)}" aria-pressed="${filter === k}">${esc(l)}<span class="n">${n}</span></button>`).join('');
+    renderGenreSelect();
   }
+  // 一覧のジャンル選択（プルダウン）
+  function renderGenreSelect() {
+    const sel = $('#gridGenre');
+    const gs = DATA.genres || [];
+    sel.innerHTML = `<option value="">すべてのジャンル（${DATA.items.length}）</option>` +
+      gs.map(g => `<option value="${esc(g)}">${esc(g)}（${DATA.items.filter(i => i.genre === g).length}）</option>`).join('');
+    sel.value = genre;
+    sel.classList.toggle('on', !!genre);
+  }
+  function setGenre(g) {
+    genre = g; store.set('anan-genre', g);
+    renderAll();
+    feed.scrollTop = 0;
+  }
+  $('#gridGenre').addEventListener('change', e => setGenre(e.target.value));
+  document.addEventListener('click', e => { if (e.target.closest('[data-genre-clear]')) setGenre(''); });
   function applyFilter() {
-    list = DATA.items.filter(i =>
+    list = DATA.items.filter(inGenre).filter(i =>
       filter === 'all' ? true :
       filter === 'todo' ? !posted.has(i.id) :
       filter === 'done' ? posted.has(i.id) :
@@ -181,6 +202,7 @@
   }
 
   function play(slide) {
+    if (!$('#ig').hidden || !$('#grid').hidden) return;   // インスタ表示・一覧の表示中は裏で流さない
     const v = playerFor(slide);
     if (v._idx !== +slide.dataset.idx) attach(+slide.dataset.idx);
     v.muted = muted;
@@ -305,6 +327,9 @@
 
   // キーボード（PC確認用）
   document.addEventListener('keydown', e => {
+    if (!$('#ig').hidden && $('#save').hidden && igMode !== 'grid' && /^Arrow/.test(e.key)) {
+      e.preventDefault(); igGo(e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : -1); return;
+    }
     if (!$('#save').hidden || !$('#grid').hidden || !$('#ig').hidden) { if (e.key === 'Escape') closeSheets(); return; }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
@@ -340,8 +365,8 @@
   igV.setAttribute('playsinline', ''); igV.setAttribute('webkit-playsinline', '');
   $('#igMedia').prepend(igV);
   const IG_NOTE = {
-    story: 'ストーリーズ：上の名前の帯と、下の「メッセージを送信」付近に重なる所は見えにくくなります。',
-    reel: 'リール：下の名前・説明文・音源の表示と、右のボタン列が動画に重なります。大事な文字は真ん中寄りに。',
+    story: 'ストーリーズ：上の名前の帯と、下の「メッセージを送信」付近に重なる所は見えにくくなります。スワイプで次の動画へ。',
+    reel: 'リール：下の名前・説明文・音源の表示と、右のボタン列が動画に重なります。大事な文字は真ん中寄りに。上へスワイプで次の動画へ。',
     grid: 'プロフィール：一覧では上下が切れて縦3:横4で並びます（赤い枠がこの動画）。表紙はサムネ画像です。',
   };
   let igMode = store.get('anan-igmode', 'story');
@@ -368,21 +393,66 @@
   }
   function igSyncSound() { $('#igSound').textContent = muted ? '🔇 音なし' : '🔊 音あり'; }
 
+  let igIdx = 0;
   function openIG(it, from) {
     pauseAll();
+    igIdx = list.indexOf(it);
+    igLoad(it);
+    if (from && from._idx >= 0 && list[from._idx] === it && from.currentTime) igV.currentTime = from.currentTime;
+    igSyncSound();
+    $('#ig').hidden = false;
+    igSetMode(igMode);
+  }
+  function igLoad(it) {
     $('#igCap').textContent = `${it.title} #あん庵`;
     igV.poster = it.poster;   // 読み込み中も真っ黒にしない
     igV.src = it.preview;
-    if (from && from._idx >= 0 && list[from._idx] === it && from.currentTime) igV.currentTime = from.currentTime;
+    $('.st-prog i').style.width = '0'; $('.rl-prog i').style.width = '0';
     // プロフィール一覧：この動画を先頭に、ほかの動画を並べる
     const others = list.filter(x => x !== it).slice(0, 11);
     const cover = it.thumb ? it.thumb.src : it.poster;
     $('#igGrid').innerHTML = [`<div class="pf-cell me"><img src="${esc(cover)}" alt=""><span class="ico reel"></span></div>`]
       .concat(others.map(x => `<div class="pf-cell"><img src="${esc(x.poster)}" alt="" loading="lazy"><span class="ico reel"></span></div>`)).join('');
-    igSyncSound();
-    $('#ig').hidden = false;
-    igSetMode(igMode);
+    $('#igPos').textContent = `${igIdx + 1}/${list.length}`;
   }
+  // 次・前の動画へ（d=1 で次、-1 で前）
+  function igGo(d) {
+    const n = igIdx + d;
+    if (n < 0 || n >= list.length) { toast(d > 0 ? '最後の動画です' : '最初の動画です', 1400); return; }
+    igIdx = n;
+    igLoad(list[n]);
+    if (igMode !== 'grid') igPlay();
+    $('#igMedia').animate([{ transform: `translateY(${d > 0 ? 18 : -18}%)`, opacity: .2 }, { transform: 'none', opacity: 1 }], { duration: 220, easing: 'ease-out' });
+    // 閉じたときにこの動画の位置に戻れるよう、裏のフィードも合わせる
+    const s = feed.children[n];
+    if (s) feed.scrollTo({ top: s.offsetTop, behavior: 'instant' in document.documentElement.style ? 'instant' : 'auto' });
+  }
+  // スワイプ（上下・左右どちらでも）で動画を切り替える
+  let sw = null;
+  const igMedia = $('#igMedia');
+  igMedia.addEventListener('pointerdown', e => {
+    sw = { x: e.clientX, y: e.clientY, moved: false };
+    try { igMedia.setPointerCapture(e.pointerId); } catch {}
+  });
+  igMedia.addEventListener('pointermove', e => {
+    if (!sw) return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
+    if (Math.abs(dx) > 8 || Math.abs(dy) > 8) sw.moved = true;
+    igV.style.transform = Math.abs(dy) >= Math.abs(dx) ? `translateY(${dy * .4}px)` : `translateX(${dx * .4}px)`;
+  });
+  const swEnd = e => {
+    if (!sw) return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
+    igV.style.transform = '';
+    const far = Math.max(Math.abs(dx), Math.abs(dy)) > 45;
+    igMedia._swiped = sw.moved;
+    sw = null;
+    if (e.type === 'pointercancel' || !far) return;
+    if (Math.abs(dy) >= Math.abs(dx)) igGo(dy < 0 ? 1 : -1);   // 上へ＝次（リールと同じ）
+    else igGo(dx < 0 ? 1 : -1);                                // 左へ＝次（ストーリーズと同じ）
+  };
+  igMedia.addEventListener('pointerup', swEnd);
+  igMedia.addEventListener('pointercancel', swEnd);
   function closeIG() {
     $('#ig').hidden = true;
     igV.pause(); igV.removeAttribute('src'); igV.load();
@@ -396,7 +466,9 @@
       igSyncSound(); syncSoundButtons();
       return;
     }
+    if (e.target.closest('#igSave')) { igV.pause(); return openSave(list[igIdx]); }
     if (e.target.closest('#igMedia') && igMode !== 'grid') {
+      if (igMedia._swiped) { igMedia._swiped = false; return; }
       if (igV.paused) igPlay(); else { igV.pause(); $('#igScreen').classList.add('paused'); }
     }
   });
@@ -411,10 +483,15 @@
   let saveCtl = null;           // ダウンロード中の中断用
   let readyFile = null;         // 共有メニューに渡すファイル
 
-  function closeSheets() {
-    $('#save').hidden = true; $('#backdrop').hidden = true; $('#grid').hidden = true;
-    if (!$('#ig').hidden) closeIG();
+  function closeSave() {
+    $('#save').hidden = true; $('#backdrop').hidden = true;
     saveCtl?.abort(); saveCtl = null; readyFile = null;
+  }
+  function closeSheets() {
+    // インスタ表示から開いた保存画面なら、保存画面だけ閉じてインスタ表示に戻る
+    if (!$('#save').hidden && !$('#ig').hidden) { closeSave(); if (igMode !== 'grid') igPlay(); return; }
+    closeSave(); $('#grid').hidden = true;
+    if (!$('#ig').hidden) closeIG();
     if (current) play(current);
   }
   document.addEventListener('click', e => { if (e.target.closest('[data-close]') || e.target.id === 'backdrop') closeSheets(); });
@@ -577,6 +654,8 @@
       DATA = d;
       const f = store.get('anan-filter', 'all');
       filter = (f === 'all' || f === 'todo' || f === 'done' || DATA.series.includes(f.slice(2))) ? f : 'all';
+      const g = store.get('anan-genre', '');
+      genre = (DATA.genres || []).includes(g) ? g : '';
       renderAll();
     })
     .catch(() => { feed.innerHTML = '<p style="padding:120px 20px;text-align:center">動画一覧を読み込めませんでした。再読み込みしてください。</p>'; });
