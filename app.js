@@ -29,8 +29,50 @@
     get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
   };
-  const posted = new Set(store.get('anan-posted', []));
-  const savePosted = () => store.set('anan-posted', [...posted]);
+  // ---- 投稿の記録（投稿先ごとに日付） ----
+  // { 動画id: { story: 'YYYY-MM-DD', reel: ..., tiktok: ..., yt: ..., old: 'unknown' } }
+  const PLAT = [
+    ['story', 'インスタ ストーリーズ', 'ストーリーズ', '#e4407b'],
+    ['reel', 'インスタ リール', 'リール', '#f08a4b'],
+    ['tiktok', 'TikTok', 'TikTok', '#3cc8d8'],
+    ['yt', 'YouTube ショート', 'YouTube', '#e5463b'],
+  ];
+  let posts = store.get('anan-posts', null);
+  if (!posts || typeof posts !== 'object') {
+    // 以前の「投稿済み」（投稿先なし）を引き継ぐ
+    posts = {};
+    for (const id of store.get('anan-posted', [])) posts[id] = { old: 'unknown' };
+    store.set('anan-posts', posts);
+  }
+  const savePosts = () => store.set('anan-posts', posts);
+  const posted = { has: id => !!posts[id] && Object.keys(posts[id]).length > 0 };
+  const pad2 = n => String(n).padStart(2, '0');
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`; };
+  const dayNum = s => { const [y, m, d] = s.split('-').map(Number); return Date.UTC(y, m - 1, d) / 86400000; };
+  const daysAgo = s => dayNum(today()) - dayNum(s);
+  const fmtMD = s => { const [, m, d] = s.split('-').map(Number); return `${m}/${d}`; };
+  const isNew = it => !!it.added && daysAgo(it.added) <= 7;
+  // いちばん最近の投稿 { p: 投稿先キー, d: 日付 }
+  function lastPost(id) {
+    let best = null;
+    for (const [k, d] of Object.entries(posts[id] || {})) if (k !== 'old' && (!best || d > best.d)) best = { p: k, d };
+    return best;
+  }
+  const platName = k => (PLAT.find(x => x[0] === k) || [])[2] || k;
+  function postTagHTML(it) {
+    const rec = posts[it.id] || {};
+    const ks = PLAT.filter(p => rec[p[0]]).map(p => p[2]);
+    if (!ks.length) return rec.old ? '<span class="tag posted">投稿済み</span>' : '';
+    const lp = lastPost(it.id), ago = daysAgo(lp.d);
+    const when = ago <= 0 ? '今日' : `${ago}日前`;
+    return `<span class="tag posted${ago <= 7 ? ' recent' : ''}">済：${esc(ks.join('・'))}（${when}）</span>`;
+  }
+  function doneBtnHTML(it) {
+    const rec = posts[it.id] || {};
+    const n = PLAT.filter(p => rec[p[0]]).length;
+    const label = n ? `投稿 ${n}/4` : rec.old ? '投稿済み' : '未投稿';
+    return `<span class="ic">${ICON.check}</span><span class="t">${label}</span>`;
+  }
   muted = store.get('anan-muted', true) !== false;
 
   const fmtDur = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
@@ -52,6 +94,8 @@
     const c = { all: base.length, todo: base.filter(i => !posted.has(i.id)).length, done: 0 };
     c.done = c.all - c.todo;
     const defs = [['all', 'すべて', c.all], ['todo', '未投稿', c.todo]];
+    const nNew = base.filter(isNew).length;
+    if (nNew) defs.push(['new', '新着', nNew]);
     for (const s of DATA.series) defs.push([`s:${s}`, s, base.filter(i => i.series === s).length]);
     defs.push(['done', '投稿済み', c.done]);
     chipsEl.innerHTML = (genre ? `<button class="chip genre-chip" data-genre-clear aria-label="ジャンルの絞り込みを解除">${esc(genre)}<span class="x">×</span></button>` : '') +
@@ -79,6 +123,7 @@
     list = DATA.items.filter(inGenre).filter(i =>
       filter === 'all' ? true :
       filter === 'todo' ? !posted.has(i.id) :
+      filter === 'new' ? isNew(i) :
       filter === 'done' ? posted.has(i.id) :
       i.series === filter.slice(2));
   }
@@ -93,9 +138,11 @@
 
   // ---- フィード ----
   function slideHTML(it, idx) {
-    const tags = [`<span class="tag series">${esc(it.series)}${it.num ? ' ' + esc(it.num) : ''}</span>`];
+    const tags = [];
+    if (isNew(it)) tags.push('<span class="tag new">NEW</span>');
+    tags.push(`<span class="tag series">${esc(it.series)}${it.num ? ' ' + esc(it.num) : ''}</span>`);
     if (it.variants.some(v => v.label === 'BGMなし')) tags.push('<span class="tag">BGMなし版あり</span>');
-    if (posted.has(it.id)) tags.push('<span class="tag posted">投稿済み</span>');
+    tags.push(postTagHTML(it));
     return `
     <article class="slide is-paused" data-idx="${idx}" data-id="${it.id}">
       <img class="bg" src="${esc(it.poster)}" alt="" loading="${idx < 2 ? 'eager' : 'lazy'}">
@@ -107,10 +154,11 @@
         <div class="tags">${tags.join('')}</div>
         <h3>${esc(it.title)}</h3>
         <div class="sub">${fmtDur(it.dur)}・縦${it.w}×${it.h}・${idx + 1}/${list.length}</div>
+        ${it.timing ? `<div class="when">⏰ 出しどき：${esc(it.timing)}</div>` : ''}
       </div>
       <div class="actions">
         <button class="act sound" aria-label="音のオン・オフ"><span class="ic">${muted ? ICON.mute : ICON.sound}</span><span class="t">${muted ? '音なし' : '音あり'}</span></button>
-        <button class="act done-btn ${posted.has(it.id) ? 'done' : ''}" aria-label="投稿済みにする"><span class="ic">${ICON.check}</span><span class="t">${posted.has(it.id) ? '投稿済み' : '未投稿'}</span></button>
+        <button class="act done-btn ${posted.has(it.id) ? 'done' : ''}" aria-label="投稿記録">${doneBtnHTML(it)}</button>
         <button class="act igp" aria-label="インスタでの見え方"><span class="ic">${ICON.phone}</span><span>インスタ表示</span></button>
         <button class="act save" aria-label="保存して使う"><span class="ic">${ICON.save}</span><span>保存して使う</span></button>
       </div>
@@ -202,7 +250,7 @@
   }
 
   function play(slide) {
-    if (!$('#ig').hidden || !$('#grid').hidden) return;   // インスタ表示・一覧の表示中は裏で流さない
+    if (!$('#ig').hidden || !$('#grid').hidden || ($('#cal') && !$('#cal').hidden)) return;   // インスタ表示・一覧の表示中は裏で流さない
     const v = playerFor(slide);
     if (v._idx !== +slide.dataset.idx) attach(+slide.dataset.idx);
     v.muted = muted;
@@ -293,7 +341,7 @@
       toast(muted ? '音を消しました' : '音を出します', 1200);
       return;
     }
-    if (e.target.closest('.done-btn')) { unlockPlayers(); return togglePosted(it, slide); }
+    if (e.target.closest('.done-btn')) { unlockPlayers(); return openPost(it); }
     if (e.target.closest('.tap')) {
       const v = playerFor(slide);
       if (!muted && v.muted && !v.paused) {
@@ -308,29 +356,81 @@
     }
   });
 
-  function togglePosted(it, slide) {
-    if (posted.has(it.id)) posted.delete(it.id); else posted.add(it.id);
-    savePosted();
-    const on = posted.has(it.id);
+  // ---- 投稿記録の画面 ----
+  function refreshItem(it) {
+    const slide = feed.querySelector(`.slide[data-id="${it.id}"]`);
     if (slide) {
       const b = $('.done-btn', slide);
-      b.classList.toggle('done', on);
-      $('.t', b).textContent = on ? '投稿済み' : '未投稿';
+      b.classList.toggle('done', posted.has(it.id));
+      b.innerHTML = doneBtnHTML(it);
       const tags = $('.tags', slide);
       tags.querySelector('.posted')?.remove();
-      if (on) tags.insertAdjacentHTML('beforeend', '<span class="tag posted">投稿済み</span>');
+      tags.insertAdjacentHTML('beforeend', postTagHTML(it));
     }
     renderChips();
     renderGrid();
-    toast(on ? '投稿済みにしました' : '未投稿に戻しました', 1400);
   }
+  function openPost(it) {
+    pauseAll(); igV.pause();
+    $('#post')._item = it;
+    $('#postTitle').textContent = it.title;
+    renderPost();
+    $('#backdrop').hidden = false; $('#post').hidden = false;
+  }
+  function renderPost() {
+    const it = $('#post')._item, rec = posts[it.id] || {};
+    const lp = lastPost(it.id);
+    let warn = '';
+    if (lp) {
+      const ago = daysAgo(lp.d);
+      warn = ago <= 7
+        ? `<p class="pwarn">⚠ ${ago <= 0 ? '今日' : ago + '日前'}（${fmtMD(lp.d)}）に${esc(platName(lp.p))}で投稿済み。続けて出すときは別の媒体にするか、少し間をあけましょう。</p>`
+        : `<p class="plast">前回の投稿：${fmtMD(lp.d)}（${esc(platName(lp.p))}・${ago}日前）</p>`;
+    }
+    $('#postBody').innerHTML = `
+      ${it.timing ? `<p class="ptime">⏰ 出しどきの目安：${esc(it.timing)}</p>` : ''}
+      ${warn}
+      ${PLAT.map(([k, name, , color]) => {
+        const d = rec[k];
+        return `<div class="prow ${d ? 'on' : ''}" data-p="${k}">
+          <span class="pdot" style="background:${color}"></span>
+          <div class="pname"><b>${esc(name)}</b><small>${d ? `${fmtMD(d)} に投稿` : '未投稿'}</small></div>
+          ${d ? `<input type="date" class="pdate" value="${d}" max="${today()}" aria-label="${esc(name)}の投稿日">` : ''}
+          <button class="pbtn">${d ? '取り消す' : '今日投稿した'}</button>
+        </div>`;
+      }).join('')}
+      ${rec.old ? '<div class="prow old"><div class="pname"><b>以前の「投稿済み」</b><small>投稿先・日付の記録なし</small></div><button class="pbtn pold">消す</button></div>' : ''}
+      <p class="howto">投稿したら、その投稿先の「今日投稿した」を押します。日付はあとから直せます。記録はこの端末にだけ残ります。カレンダーは画面右上のボタンから見られます。</p>`;
+  }
+  $('#postBody').addEventListener('click', e => {
+    const b = e.target.closest('.pbtn');
+    if (!b) return;
+    const it = $('#post')._item;
+    const rec = posts[it.id] = posts[it.id] || {};
+    if (b.classList.contains('pold')) delete rec.old;
+    else {
+      const k = b.closest('.prow').dataset.p;
+      if (rec[k]) { delete rec[k]; toast(`${platName(k)}の記録を取り消しました`, 1400); }
+      else { rec[k] = today(); toast(`${platName(k)}に投稿した記録を付けました`, 1400); }
+    }
+    if (!Object.keys(rec).length) delete posts[it.id];
+    savePosts(); renderPost(); refreshItem(it);
+  });
+  $('#postBody').addEventListener('change', e => {
+    const inp = e.target.closest('.pdate');
+    if (!inp || !inp.value) return;
+    const it = $('#post')._item;
+    posts[it.id][inp.closest('.prow').dataset.p] = inp.value > today() ? today() : inp.value;
+    savePosts(); renderPost(); refreshItem(it);
+  });
 
   // キーボード（PC確認用）
   document.addEventListener('keydown', e => {
     if (!$('#ig').hidden && $('#save').hidden && igMode !== 'grid' && /^Arrow/.test(e.key)) {
       e.preventDefault(); igGo(e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : -1); return;
     }
-    if (!$('#save').hidden || !$('#grid').hidden || !$('#ig').hidden) { if (e.key === 'Escape') closeSheets(); return; }
+    if ($('#cal') && !$('#cal').hidden) return;   // カレンダーは自分で閉じる
+    if (!$('#save').hidden || !$('#post').hidden || !$('#grid').hidden || !$('#ig').hidden) { if (e.key === 'Escape') closeSheets(); return; }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       feed.scrollBy({ top: (e.key === 'ArrowDown' ? 1 : -1) * feed.clientHeight, behavior: 'smooth' });
@@ -345,10 +445,33 @@
         <img src="${esc(it.poster)}" alt="" loading="lazy">
         <span class="badge">${esc(it.series)}${it.num ? ' ' + esc(it.num) : ''}</span>
         ${posted.has(it.id) ? '<span class="chk">✓</span>' : ''}
+        ${isNew(it) ? '<span class="newb">NEW</span>' : ''}
         <span class="lbl">${esc(it.title)}</span>
       </button>`).join('');
   }
   $('#openGrid').addEventListener('click', () => { pauseAll(); $('#grid').hidden = false; });
+  $('#openCal').addEventListener('click', () => {
+    if (!window.ANAN_CAL) { toast('カレンダーを読み込み中です。少し待ってもう一度押してください'); return; }
+    pauseAll(); window.ANAN_CAL.open();
+  });
+  // カレンダー部品（cal.js）に渡す窓口
+  function jumpTo(id) {
+    let i = list.findIndex(x => x.id === id);
+    if (i < 0) { filter = 'all'; genre = ''; store.set('anan-filter', filter); store.set('anan-genre', ''); renderAll(); i = list.findIndex(x => x.id === id); }
+    if (i < 0) { toast('この動画はもうありません'); return; }
+    $('#grid').hidden = true;
+    const sl = feed.children[i];
+    current = null;
+    feed.scrollTo({ top: sl.offsetTop, behavior: 'instant' in document.documentElement.style ? 'instant' : 'auto' });
+    activate(sl);
+  }
+  window.ANAN = {
+    items: () => DATA.items,
+    posts: () => posts,
+    PLAT,
+    jump: id => jumpTo(id),
+    onClose: () => setTimeout(() => { if (current) play(current); }, 0),   // 行を押したときは onClose → jump の順なので一拍おく
+  };
   $('#gridList').addEventListener('click', e => {
     const c = e.target.closest('[data-jump]');
     if (!c) return;
@@ -484,12 +607,12 @@
   let readyFile = null;         // 共有メニューに渡すファイル
 
   function closeSave() {
-    $('#save').hidden = true; $('#backdrop').hidden = true;
+    $('#save').hidden = true; $('#post').hidden = true; $('#backdrop').hidden = true;
     saveCtl?.abort(); saveCtl = null; readyFile = null;
   }
   function closeSheets() {
     // インスタ表示から開いた保存画面なら、保存画面だけ閉じてインスタ表示に戻る
-    if (!$('#save').hidden && !$('#ig').hidden) { closeSave(); if (igMode !== 'grid') igPlay(); return; }
+    if ((!$('#save').hidden || !$('#post').hidden) && !$('#ig').hidden) { closeSave(); if (igMode !== 'grid') igPlay(); return; }
     closeSave(); $('#grid').hidden = true;
     if (!$('#ig').hidden) closeIG();
     if (current) play(current);
@@ -600,12 +723,11 @@
     if (!posted.has(it.id)) {
       const opt = btn.closest('.opt');
       if (!opt.querySelector('.mk')) {
-        opt.insertAdjacentHTML('beforeend', '<button class="sub-link mk">投稿したら「投稿済み」にする</button>');
+        opt.insertAdjacentHTML('beforeend', '<button class="sub-link mk">投稿したら、投稿先を記録する</button>');
         opt.querySelector('.mk').addEventListener('click', ev => {
           ev.stopPropagation();
-          const slide = feed.querySelector(`.slide[data-id="${it.id}"]`);
-          if (!posted.has(it.id)) togglePosted(it, slide);
-          ev.target.remove();
+          $('#save').hidden = true; saveCtl?.abort(); saveCtl = null;
+          openPost(it);
         });
       }
     }
@@ -653,7 +775,7 @@
       }
       DATA = d;
       const f = store.get('anan-filter', 'all');
-      filter = (f === 'all' || f === 'todo' || f === 'done' || DATA.series.includes(f.slice(2))) ? f : 'all';
+      filter = (f === 'all' || f === 'todo' || f === 'done' || f === 'new' || DATA.series.includes(f.slice(2))) ? f : 'all';
       const g = store.get('anan-genre', '');
       genre = (DATA.genres || []).includes(g) ? g : '';
       renderAll();
