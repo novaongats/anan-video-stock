@@ -7,6 +7,134 @@
  ],
  "items": [
   {
+   "key": "第3弾|19_手書きの店",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "6ccba545d623",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/6ccba545d623.mp4",
+     "bytes": 9457211,
+     "audio": true,
+     "filename": "あん庵_第3弾_19_手書きの店_BGMあり.mp4"
+    },
+    {
+     "id": "624e3d63c093",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/624e3d63c093.mp4",
+     "bytes": 9407904,
+     "audio": true,
+     "filename": "あん庵_第3弾_19_手書きの店_BGMなし.mp4"
+    }
+   ],
+   "title": "手書きの店",
+   "num": "19",
+   "poster": "media/t/6ccba545d623.jpg",
+   "preview": "media/p/6ccba545d623.mp4",
+   "dur": 12.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "6ccba545d623"
+  },
+  {
+   "key": "第3弾|25_ガトーショコラLEVEL",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "cddd0b9c7319",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/cddd0b9c7319.mp4",
+     "bytes": 13707468,
+     "audio": true,
+     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMあり.mp4"
+    },
+    {
+     "id": "274264f60ac2",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/274264f60ac2.mp4",
+     "bytes": 13628597,
+     "audio": true,
+     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMなし.mp4"
+    }
+   ],
+   "title": "ガトーショコラLEVEL",
+   "num": "25",
+   "poster": "media/t/cddd0b9c7319.jpg",
+   "preview": "media/p/cddd0b9c7319.mp4",
+   "dur": 15.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "cddd0b9c7319"
+  },
+  {
+   "key": "第3弾|05_のせる瞬間図鑑",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "5235c97043ed",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/5235c97043ed.mp4",
+     "bytes": 24587886,
+     "audio": true,
+     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMあり.mp4"
+    },
+    {
+     "id": "72e96ad1849c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/72e96ad1849c.mp4",
+     "bytes": 24545724,
+     "audio": true,
+     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMなし.mp4"
+    }
+   ],
+   "title": "のせる瞬間図鑑",
+   "num": "05",
+   "poster": "media/t/5235c97043ed.jpg",
+   "preview": "media/p/5235c97043ed.mp4",
+   "dur": 18.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "5235c97043ed"
+  },
+  {
+   "key": "第3弾|09_鉄板vs白い皿",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "76960f223b9d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/76960f223b9d.mp4",
+     "bytes": 10588665,
+     "audio": true,
+     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMあり.mp4"
+    },
+    {
+     "id": "479f964b2ae6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/479f964b2ae6.mp4",
+     "bytes": 10549115,
+     "audio": true,
+     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMなし.mp4"
+    }
+   ],
+   "title": "鉄板vs白い皿",
+   "num": "09",
+   "poster": "media/t/76960f223b9d.jpg",
+   "preview": "media/p/76960f223b9d.mp4",
+   "dur": 15.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "76960f223b9d"
+  },
+  {
    "key": "第3弾|18_照明の色で選ぶ席",
    "series": "第3弾",
    "variants": [
@@ -1019,5 +1147,6 @@
    "h": 1920,
    "id": "1fbeab3825e9"
   }
- ]
+ ],
+ "mediaBase": "https://pub-fbd70dc810a2478293f031d46738d7df.r2.dev/"
 }

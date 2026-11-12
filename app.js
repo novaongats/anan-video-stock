@@ -443,6 +443,13 @@
   fetch('videos.json', { cache: 'no-cache' })
     .then(r => r.json())
     .then(d => {
+      // 公開ページでは動画を R2（mediaBase）から読む。PCでの確認時は手元のファイルを使う
+      const local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+      const base = (!local && d.mediaBase) || '';
+      if (base) for (const it of d.items) {
+        it.poster = base + it.poster; it.preview = base + it.preview;
+        for (const v of it.variants) v.src = base + v.src;
+      }
       DATA = d;
       const f = store.get('anan-filter', 'all');
       filter = (f === 'all' || f === 'todo' || f === 'done' || DATA.series.includes(f.slice(2))) ? f : 'all';
