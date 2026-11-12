@@ -21,7 +21,7 @@
   let DATA = { series: [], items: [] };
   let filter = 'all';
   let list = [];
-  let muted = true;
+  let muted = true;   // 起動時に保存済みの設定を読む（下の store 定義後）
   let current = null;           // いま見えているスライド
   const store = {
     get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
@@ -29,6 +29,7 @@
   };
   const posted = new Set(store.get('anan-posted', []));
   const savePosted = () => store.set('anan-posted', [...posted]);
+  muted = store.get('anan-muted', true) !== false;
 
   const fmtDur = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
   const fmtMB = b => `${(b / 1048576).toFixed(1)}MB`;
@@ -77,7 +78,6 @@
     <article class="slide is-paused" data-idx="${idx}" data-id="${it.id}">
       <img class="bg" src="${esc(it.poster)}" alt="" loading="${idx < 2 ? 'eager' : 'lazy'}">
       <img class="poster" src="${esc(it.poster)}" alt="" loading="${idx < 2 ? 'eager' : 'lazy'}">
-      <video playsinline webkit-playsinline loop muted preload="none" data-src="${esc(it.preview)}"></video>
       <div class="shade"></div>
       <div class="tap" aria-hidden="true"></div>
       <div class="paused-ico">${ICON.play}</div>
@@ -100,6 +100,7 @@
     applyFilter();
     renderChips();
     pauseAll();
+    pool.forEach(v => { v.remove(); v._idx = -1; });
     feed.innerHTML = list.map(slideHTML).join('');
     $('#empty').hidden = list.length > 0;
     current = null;
@@ -115,38 +116,84 @@
     }
   }
 
-  function ensureSrc(slide) {
-    if (!slide) return;
-    const v = $('video', slide);
-    if (!v.getAttribute('src')) { v.src = v.dataset.src; v.preload = 'auto'; }
+  // ---- 動画プレーヤーは3つだけを使い回す ----
+  // iPhoneのSafariは「音ありの自動再生」をプレーヤー1つずつにしか許可しないため、
+  // 動画ごとに新しいプレーヤーを作ると、許可のないプレーヤーで音が消えてしまう。
+  // 3つを使い回し、画面に触れたときに3つまとめて許可を取る。
+  const pool = [0, 1, 2].map(() => {
+    const v = document.createElement('video');
+    v.playsInline = true; v.loop = true; v.muted = true; v.preload = 'auto';
+    v.setAttribute('playsinline', ''); v.setAttribute('webkit-playsinline', '');
+    v._idx = -1;
+    return v;
+  });
+  let needUnlock = true;      // まだ音の許可を取っていない
+
+  // どこを触っても（絞り込み・一覧・ボタン）許可を取る
+  document.addEventListener('click', () => unlockPlayers(), true);
+
+  function slideAt(i) { return feed.children[i]; }
+  function playerFor(slide) { return pool[+slide.dataset.idx % 3]; }
+
+  function attach(i) {
+    const s = slideAt(i);
+    if (!s || !s.classList.contains('slide')) return;
+    const v = pool[i % 3];
+    if (v._idx === i && v.parentNode === s) return;
+    const old = v._idx >= 0 && slideAt(v._idx);
+    if (old) old.classList.remove('playing');
+    v.pause();
+    v._idx = i;
+    v.muted = true;
+    v.src = list[i].preview;
+    $('.poster', s).after(v);
+    $('.progress i', s).style.width = '0';
   }
-  function unload(slide) {
-    const v = $('video', slide);
-    if (v.getAttribute('src')) { v.pause(); v.removeAttribute('src'); v.load(); slide.classList.remove('playing'); }
+  function pauseAll() { pool.forEach(v => v.pause()); }
+
+  // 画面に触れたとき（ユーザー操作の中）に、3つのプレーヤー全部の音の許可を取る
+  function unlockPlayers() {
+    if (!needUnlock) return;
+    needUnlock = false;
+    const cur = current && playerFor(current);
+    if (cur && !cur.paused) { const p0 = cur.play(); if (p0) p0.catch(() => {}); }   // 再生中のものも操作の中で許可を取る
+    pool.forEach(v => {
+      if (v === cur) return;
+      const wasMuted = v.muted;
+      v.muted = false;
+      const p = v.play();
+      v.pause();
+      v.muted = wasMuted;
+      if (p) p.catch(() => {});
+    });
   }
-  function pauseAll() { feed.querySelectorAll('video').forEach(v => v.pause()); }
 
   function activate(slide) {
     if (current === slide) return;
     current = slide;
     const idx = +slide.dataset.idx;
-    const slides = feed.querySelectorAll('.slide');
-    slides.forEach((s, i) => {
-      if (Math.abs(i - idx) <= 1) ensureSrc(s);
-      else if (Math.abs(i - idx) > 2) unload(s);
-      if (s !== slide) { $('video', s).pause(); s.classList.add('is-paused'); }
-    });
+    attach(idx); attach(idx + 1); attach(idx - 1);
+    pool.forEach(v => { if (v._idx !== idx) { v.pause(); } });
+    feed.querySelectorAll('.slide:not(.is-paused)').forEach(s => { if (s !== slide) s.classList.add('is-paused'); });
     play(slide);
   }
 
   function play(slide) {
-    const v = $('video', slide);
-    ensureSrc(slide);
+    const v = playerFor(slide);
+    if (v._idx !== +slide.dataset.idx) attach(+slide.dataset.idx);
     v.muted = muted;
     const p = v.play();
     slide.classList.remove('is-paused');
-    if (p) p.catch(() => {
-      if (!v.muted) { v.muted = true; muted = true; syncSoundButtons(); return v.play().catch(() => slide.classList.add('is-paused')); }
+    if (p) p.catch(err => {
+      if (err && err.name === 'AbortError') return;
+      if (!v.muted) {
+        // 音ありが許可されなかった：設定は「音あり」のまま、いったん音なしで流す
+        needUnlock = true;
+        v.muted = true;
+        v.play().catch(() => slide.classList.add('is-paused'));
+        toast('画面をタップすると音が出ます', 2200);
+        return;
+      }
       slide.classList.add('is-paused');
     });
   }
@@ -158,7 +205,10 @@
     });
   }
 
-  feed.addEventListener('playing', e => e.target.closest('.slide')?.classList.add('playing'), true);
+  feed.addEventListener('playing', e => {
+    const v = e.target; const s = v._idx >= 0 && slideAt(v._idx);
+    if (s && v.parentNode === s) s.classList.add('playing');
+  }, true);
   feed.addEventListener('timeupdate', e => {
     const v = e.target, s = v.closest('.slide');
     if (s && v.duration) $('.progress i', s).style.width = `${(v.currentTime / v.duration) * 100}%`;
@@ -171,15 +221,25 @@
     if (e.target.closest('.act.save')) return openSave(it);
     if (e.target.closest('.act.sound')) {
       muted = !muted;
-      const v = $('video', slide); v.muted = muted;
+      store.set('anan-muted', muted);
+      const v = playerFor(slide); v.muted = muted;
       if (v.paused) play(slide);
+      unlockPlayers();
       syncSoundButtons();
       toast(muted ? '音を消しました' : '音を出します', 1200);
       return;
     }
-    if (e.target.closest('.done-btn')) return togglePosted(it, slide);
+    if (e.target.closest('.done-btn')) { unlockPlayers(); return togglePosted(it, slide); }
     if (e.target.closest('.tap')) {
-      const v = $('video', slide);
+      const v = playerFor(slide);
+      if (!muted && v.muted && !v.paused) {
+        // 音ありのはずが音なしで流れている → タップで音を出す（止めない）
+        v.muted = false;
+        const p1 = v.play(); if (p1) p1.catch(() => {});
+        toast('音を出します', 1000);
+        return;
+      }
+      unlockPlayers();
       if (v.paused) play(slide); else { v.pause(); slide.classList.add('is-paused'); }
     }
   });
