@@ -1,5 +1,6 @@
 {
  "series": [
+  "スタッフ追加",
   "第4弾",
   "第3弾",
   "リール",
@@ -19,6 +20,346 @@
   "企画・パロディ"
  ],
  "items": [
+  {
+   "key": "スタッフ追加|08_仕事帰りの夜ごはん",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "a89dc7ec9560",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a89dc7ec9560.mp4?v=1794556789",
+     "bytes": 43013578,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_08_仕事帰りの夜ごはん_BGMあり.mp4"
+    }
+   ],
+   "title": "仕事帰りの夜ごはん",
+   "num": "08",
+   "poster": "media/t/a89dc7ec9560.jpg?v=1794556789",
+   "preview": "media/p/a89dc7ec9560.mp4?v=1794556789",
+   "dur": 29.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "a89dc7ec9560",
+   "thumb": {
+    "src": "media/s/a89dc7ec9560.jpg?v=1794557406",
+    "bytes": 201521,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_08_仕事帰りの夜ごはん_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "16〜17時（仕事帰りに夜ごはんを決める前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|02_お客さんに言われたこと3つ",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "844dea202c66",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/844dea202c66.mp4?v=1794555025",
+     "bytes": 41025284,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_02_お客さんに言われたこと3つ_BGMあり.mp4"
+    }
+   ],
+   "title": "お客さんに言われたこと3つ",
+   "num": "02",
+   "poster": "media/t/844dea202c66.jpg?v=1794555025",
+   "preview": "media/p/844dea202c66.mp4?v=1794555025",
+   "dur": 19.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "844dea202c66",
+   "thumb": {
+    "src": "media/s/844dea202c66.jpg?v=1794557405",
+    "bytes": 256397,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_02_お客さんに言われたこと3つ_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|05_駐車場から入店まで",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "aa5ef4f1bd15",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/aa5ef4f1bd15.mp4?v=1794554438",
+     "bytes": 93091541,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_05_駐車場から入店まで_BGMあり.mp4"
+    }
+   ],
+   "title": "駐車場から入店まで",
+   "num": "05",
+   "poster": "media/t/aa5ef4f1bd15.jpg?v=1794554438",
+   "preview": "media/p/aa5ef4f1bd15.mp4?v=1794554438",
+   "dur": 24.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "aa5ef4f1bd15",
+   "thumb": {
+    "src": "media/s/aa5ef4f1bd15.jpg?v=1794557406",
+    "bytes": 509389,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_05_駐車場から入店まで_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "平日10時〜11時（来店前に調べる時間）か 金・土の20〜22時",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|10_1人でも座敷でも",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "4e9f29b038f9",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/4e9f29b038f9.mp4?v=1794548737",
+     "bytes": 56492208,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_10_1人でも座敷でも_BGMあり.mp4"
+    }
+   ],
+   "title": "1人でも座敷でも",
+   "num": "10",
+   "poster": "media/t/4e9f29b038f9.jpg?v=1794548737",
+   "preview": "media/p/4e9f29b038f9.mp4?v=1794548737",
+   "dur": 20.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "4e9f29b038f9",
+   "thumb": {
+    "src": "media/s/4e9f29b038f9.jpg?v=1794557407",
+    "bytes": 601079,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_10_1人でも座敷でも_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "金・土の20〜22時（週末のお店探しの時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|04_作っている人",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "a8bc23c3f7ba",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a8bc23c3f7ba.mp4?v=1794548652",
+     "bytes": 31940467,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_04_作っている人_BGMあり.mp4"
+    }
+   ],
+   "title": "作っている人",
+   "num": "04",
+   "poster": "media/t/a8bc23c3f7ba.jpg?v=1794548652",
+   "preview": "media/p/a8bc23c3f7ba.mp4?v=1794548652",
+   "dur": 29.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "a8bc23c3f7ba",
+   "thumb": {
+    "src": "media/s/a8bc23c3f7ba.jpg?v=1794557405",
+    "bytes": 86466,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_04_作っている人_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|01_10月の注文数ランキング",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "abbbf40eaa8f",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/abbbf40eaa8f.mp4?v=1794548556",
+     "bytes": 18347027,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_01_10月の注文数ランキング_BGMあり.mp4"
+    }
+   ],
+   "title": "10月の注文数ランキング",
+   "num": "01",
+   "poster": "media/t/abbbf40eaa8f.jpg?v=1794548556",
+   "preview": "media/p/abbbf40eaa8f.mp4?v=1794548556",
+   "dur": 25.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "abbbf40eaa8f",
+   "thumb": {
+    "src": "media/s/abbbf40eaa8f.jpg?v=1794557405",
+    "bytes": 188125,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_01_10月の注文数ランキング_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|03_初めての頼み方",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "ce75bec8b5d2",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ce75bec8b5d2.mp4?v=1794548524",
+     "bytes": 10485181,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_03_初めての頼み方_BGMあり.mp4"
+    }
+   ],
+   "title": "初めての頼み方",
+   "num": "03",
+   "poster": "media/t/ce75bec8b5d2.jpg?v=1794548524",
+   "preview": "media/p/ce75bec8b5d2.mp4?v=1794548524",
+   "dur": 24.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "ce75bec8b5d2",
+   "thumb": {
+    "src": "media/s/ce75bec8b5d2.jpg?v=1794557405",
+    "bytes": 201746,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_03_初めての頼み方_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "金・土の20〜22時（週末のお店探しの時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|09_食後のデザート",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "ba6c479dc32c",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ba6c479dc32c.mp4?v=1794548511",
+     "bytes": 12423181,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_09_食後のデザート_BGMあり.mp4"
+    }
+   ],
+   "title": "食後のデザート",
+   "num": "09",
+   "poster": "media/t/ba6c479dc32c.jpg?v=1794548511",
+   "preview": "media/p/ba6c479dc32c.mp4?v=1794548511",
+   "dur": 17.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "ba6c479dc32c",
+   "thumb": {
+    "src": "media/s/ba6c479dc32c.jpg?v=1794557406",
+    "bytes": 312971,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_09_食後のデザート_サムネ.jpg"
+   },
+   "genre": "デザート・サイド",
+   "timing": "14〜15時（おやつどき）か 20時以降",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|07_あんかけスパって何味",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "5e0b3444deb5",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/5e0b3444deb5.mp4?v=1794548240",
+     "bytes": 13911338,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_07_あんかけスパって何味_BGMあり.mp4"
+    }
+   ],
+   "title": "あんかけスパって何味",
+   "num": "07",
+   "poster": "media/t/5e0b3444deb5.jpg?v=1794548240",
+   "preview": "media/p/5e0b3444deb5.mp4?v=1794548240",
+   "dur": 19.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "5e0b3444deb5",
+   "thumb": {
+    "src": "media/s/5e0b3444deb5.jpg?v=1794557406",
+    "bytes": 123909,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_07_あんかけスパって何味_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "金・土の20〜22時（週末のお店探しの時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "スタッフ追加|06_あんかけスパの店のカレー",
+   "series": "スタッフ追加",
+   "variants": [
+    {
+     "id": "76c975db1dc8",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/76c975db1dc8.mp4?v=1794548216",
+     "bytes": 53511379,
+     "audio": true,
+     "filename": "あん庵_スタッフ追加_06_あんかけスパの店のカレー_BGMあり.mp4"
+    }
+   ],
+   "title": "あんかけスパの店のカレー",
+   "num": "06",
+   "poster": "media/t/76c975db1dc8.jpg?v=1794548216",
+   "preview": "media/p/76c975db1dc8.mp4?v=1794548216",
+   "dur": 29.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "76c975db1dc8",
+   "thumb": {
+    "src": "media/s/76c975db1dc8.jpg?v=1794557406",
+    "bytes": 337423,
+    "w": 1080,
+    "h": 1920,
+    "designed": false,
+    "filename": "あん庵_スタッフ追加_06_あんかけスパの店のカレー_サムネ.jpg"
+   },
+   "genre": "カレー",
+   "timing": "17〜18時（夕食前）。あんかけの投稿とは日をずらして",
+   "added": "2026-11-13"
+  },
   {
    "key": "第4弾|20_招き猫スタンプラリー",
    "series": "第4弾",
