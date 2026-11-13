@@ -1,5 +1,6 @@
 {
  "series": [
+  "第4弾",
   "第3弾",
   "リール",
   "第2弾",
@@ -18,6 +19,823 @@
   "企画・パロディ"
  ],
  "items": [
+  {
+   "key": "第4弾|20_招き猫スタンプラリー",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "96e21efc2b0b",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/96e21efc2b0b.mp4?v=1794535906",
+     "bytes": 20643927,
+     "audio": true,
+     "filename": "あん庵_第4弾_20_招き猫スタンプラリー_BGMあり.mp4"
+    },
+    {
+     "id": "5bcefa50d491",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/5bcefa50d491.mp4?v=1794535906",
+     "bytes": 20380418,
+     "audio": true,
+     "filename": "あん庵_第4弾_20_招き猫スタンプラリー_BGMなし.mp4"
+    }
+   ],
+   "title": "招き猫スタンプラリー",
+   "num": "20",
+   "poster": "media/t/96e21efc2b0b.jpg?v=1794535906",
+   "preview": "media/p/96e21efc2b0b.mp4?v=1794535906",
+   "dur": 23.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "96e21efc2b0b",
+   "thumb": {
+    "src": "media/s/96e21efc2b0b.jpg?v=1794535906",
+    "bytes": 326419,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_20_招き猫スタンプラリー_サムネ.jpg"
+   },
+   "genre": "クイズ・参加型",
+   "timing": "土・日の10〜11時（家族で出かける前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|03_スーパースロー解析",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "a06d697861cf",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a06d697861cf.mp4?v=1794535719",
+     "bytes": 30378561,
+     "audio": true,
+     "filename": "あん庵_第4弾_03_スーパースロー解析_BGMあり.mp4"
+    },
+    {
+     "id": "b6f610f151b1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b6f610f151b1.mp4?v=1794535719",
+     "bytes": 30343865,
+     "audio": true,
+     "filename": "あん庵_第4弾_03_スーパースロー解析_BGMなし.mp4"
+    }
+   ],
+   "title": "スーパースロー解析",
+   "num": "03",
+   "poster": "media/t/a06d697861cf.jpg?v=1794535719",
+   "preview": "media/p/a06d697861cf.mp4?v=1794535719",
+   "dur": 24.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "a06d697861cf",
+   "thumb": {
+    "src": "media/s/a06d697861cf.jpg?v=1794535719",
+    "bytes": 253491,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_03_スーパースロー解析_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|14_高速モンタージュ",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "7a9828c2f68b",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/7a9828c2f68b.mp4?v=1794535600",
+     "bytes": 10312597,
+     "audio": true,
+     "filename": "あん庵_第4弾_14_高速モンタージュ_BGMあり.mp4"
+    },
+    {
+     "id": "11e9310bc452",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/11e9310bc452.mp4?v=1794535600",
+     "bytes": 10182442,
+     "audio": true,
+     "filename": "あん庵_第4弾_14_高速モンタージュ_BGMなし.mp4"
+    }
+   ],
+   "title": "高速モンタージュ",
+   "num": "14",
+   "poster": "media/t/7a9828c2f68b.jpg?v=1794535600",
+   "preview": "media/p/7a9828c2f68b.mp4?v=1794535600",
+   "dur": 15.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "7a9828c2f68b",
+   "thumb": {
+    "src": "media/s/7a9828c2f68b.jpg?v=1794535600",
+    "bytes": 280189,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_14_高速モンタージュ_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "平日10時半〜11時（ランチ前）。15秒と短いのでストーリーズ向き",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|10_写真集",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "c6b33af32a37",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/c6b33af32a37.mp4?v=1794535364",
+     "bytes": 9749312,
+     "audio": true,
+     "filename": "あん庵_第4弾_10_写真集_BGMあり.mp4"
+    },
+    {
+     "id": "a34c681699a0",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/a34c681699a0.mp4?v=1794535364",
+     "bytes": 9164577,
+     "audio": true,
+     "filename": "あん庵_第4弾_10_写真集_BGMなし.mp4"
+    }
+   ],
+   "title": "写真集",
+   "num": "10",
+   "poster": "media/t/c6b33af32a37.jpg?v=1794535364",
+   "preview": "media/p/c6b33af32a37.mp4?v=1794535364",
+   "dur": 28.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "c6b33af32a37",
+   "thumb": {
+    "src": "media/s/c6b33af32a37.jpg?v=1794535365",
+    "bytes": 202812,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_10_写真集_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|18_カレー4つの表情",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "73d2873f2318",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/73d2873f2318.mp4?v=1794535298",
+     "bytes": 18739156,
+     "audio": true,
+     "filename": "あん庵_第4弾_18_カレー4つの表情_BGMあり.mp4"
+    },
+    {
+     "id": "cd38f23d8c0f",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/cd38f23d8c0f.mp4?v=1794535298",
+     "bytes": 18474597,
+     "audio": true,
+     "filename": "あん庵_第4弾_18_カレー4つの表情_BGMなし.mp4"
+    }
+   ],
+   "title": "カレー4つの表情",
+   "num": "18",
+   "poster": "media/t/73d2873f2318.jpg?v=1794535298",
+   "preview": "media/p/73d2873f2318.mp4?v=1794535298",
+   "dur": 24.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "73d2873f2318",
+   "thumb": {
+    "src": "media/s/73d2873f2318.jpg?v=1794535299",
+    "bytes": 204487,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_18_カレー4つの表情_サムネ.jpg"
+   },
+   "genre": "カレー",
+   "timing": "17〜18時（夕食前）。あんかけの投稿とは日をずらして",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|07_キャラ選択画面",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "0059cc710890",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0059cc710890.mp4?v=1794535190",
+     "bytes": 14239144,
+     "audio": true,
+     "filename": "あん庵_第4弾_07_キャラ選択画面_BGMあり.mp4"
+    },
+    {
+     "id": "b4fb3853b8f8",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b4fb3853b8f8.mp4?v=1794535190",
+     "bytes": 14119853,
+     "audio": true,
+     "filename": "あん庵_第4弾_07_キャラ選択画面_BGMなし.mp4"
+    }
+   ],
+   "title": "キャラ選択画面",
+   "num": "07",
+   "poster": "media/t/0059cc710890.jpg?v=1794535190",
+   "preview": "media/p/0059cc710890.mp4?v=1794535190",
+   "dur": 28.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "0059cc710890",
+   "thumb": {
+    "src": "media/s/0059cc710890.jpg?v=1794535190",
+    "bytes": 323360,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_07_キャラ選択画面_サムネ.jpg"
+   },
+   "genre": "企画・パロディ",
+   "timing": "12時台（昼休み）か 20〜22時",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|09_エンドロール",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "364c1c914cff",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/364c1c914cff.mp4?v=1794535027",
+     "bytes": 17663312,
+     "audio": true,
+     "filename": "あん庵_第4弾_09_エンドロール_BGMあり.mp4"
+    },
+    {
+     "id": "91935399eb9b",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/91935399eb9b.mp4?v=1794535027",
+     "bytes": 17538970,
+     "audio": true,
+     "filename": "あん庵_第4弾_09_エンドロール_BGMなし.mp4"
+    }
+   ],
+   "title": "エンドロール",
+   "num": "09",
+   "poster": "media/t/364c1c914cff.jpg?v=1794535027",
+   "preview": "media/p/364c1c914cff.mp4?v=1794535027",
+   "dur": 26.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "364c1c914cff",
+   "thumb": {
+    "src": "media/s/364c1c914cff.jpg?v=1794535027",
+    "bytes": 192600,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_09_エンドロール_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|06_スワイプで決めるランチ",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "01eb5aed20ff",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/01eb5aed20ff.mp4?v=1794535026",
+     "bytes": 14264520,
+     "audio": true,
+     "filename": "あん庵_第4弾_06_スワイプで決めるランチ_BGMあり.mp4"
+    },
+    {
+     "id": "57e8951acf60",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/57e8951acf60.mp4?v=1794535026",
+     "bytes": 14088192,
+     "audio": true,
+     "filename": "あん庵_第4弾_06_スワイプで決めるランチ_BGMなし.mp4"
+    }
+   ],
+   "title": "スワイプで決めるランチ",
+   "num": "06",
+   "poster": "media/t/01eb5aed20ff.jpg?v=1794535026",
+   "preview": "media/p/01eb5aed20ff.mp4?v=1794535026",
+   "dur": 21.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "01eb5aed20ff",
+   "thumb": {
+    "src": "media/s/01eb5aed20ff.jpg?v=1794535026",
+    "bytes": 238118,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_06_スワイプで決めるランチ_サムネ.jpg"
+   },
+   "genre": "ランチ・せんスパ",
+   "timing": "平日10時〜11時半（ランチを決める前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|22_鉄板が冷めない理由",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "7a03859d9367",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/7a03859d9367.mp4?v=1794534940",
+     "bytes": 33085886,
+     "audio": true,
+     "filename": "あん庵_第4弾_22_鉄板が冷めない理由_BGMあり.mp4"
+    },
+    {
+     "id": "907f08cd7f28",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/907f08cd7f28.mp4?v=1794534940",
+     "bytes": 33068372,
+     "audio": true,
+     "filename": "あん庵_第4弾_22_鉄板が冷めない理由_BGMなし.mp4"
+    }
+   ],
+   "title": "鉄板が冷めない理由",
+   "num": "22",
+   "poster": "media/t/7a03859d9367.jpg?v=1794534940",
+   "preview": "media/p/7a03859d9367.mp4?v=1794534940",
+   "dur": 29.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "7a03859d9367",
+   "thumb": {
+    "src": "media/s/7a03859d9367.jpg?v=1794534940",
+    "bytes": 353258,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_22_鉄板が冷めない理由_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|16_一枚の写真に潜入",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "6a1d902543bc",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/6a1d902543bc.mp4?v=1794534612",
+     "bytes": 27612739,
+     "audio": true,
+     "filename": "あん庵_第4弾_16_一枚の写真に潜入_BGMあり.mp4"
+    },
+    {
+     "id": "749a5c1e3bb7",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/749a5c1e3bb7.mp4?v=1794534612",
+     "bytes": 27556730,
+     "audio": true,
+     "filename": "あん庵_第4弾_16_一枚の写真に潜入_BGMなし.mp4"
+    }
+   ],
+   "title": "一枚の写真に潜入",
+   "num": "16",
+   "poster": "media/t/6a1d902543bc.jpg?v=1794534612",
+   "preview": "media/p/6a1d902543bc.mp4?v=1794534612",
+   "dur": 28.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "6a1d902543bc",
+   "thumb": {
+    "src": "media/s/6a1d902543bc.jpg?v=1794534612",
+    "bytes": 312233,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_16_一枚の写真に潜入_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|08_YESNO診断",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "398a20cf1df4",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/398a20cf1df4.mp4?v=1794533655",
+     "bytes": 26513487,
+     "audio": true,
+     "filename": "あん庵_第4弾_08_YESNO診断_BGMあり.mp4"
+    },
+    {
+     "id": "4872f0611d7e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/4872f0611d7e.mp4?v=1794533655",
+     "bytes": 26266638,
+     "audio": true,
+     "filename": "あん庵_第4弾_08_YESNO診断_BGMなし.mp4"
+    }
+   ],
+   "title": "YESNO診断",
+   "num": "08",
+   "poster": "media/t/398a20cf1df4.jpg?v=1794533655",
+   "preview": "media/p/398a20cf1df4.mp4?v=1794533655",
+   "dur": 35.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "398a20cf1df4",
+   "thumb": {
+    "src": "media/s/398a20cf1df4.jpg?v=1794533655",
+    "bytes": 386637,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_08_YESNO診断_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "平日10時〜11時（お昼を迷っている時間）か 金・土の20〜22時",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|11_寸胴の中身を追え",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "b9809ceed708",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/b9809ceed708.mp4?v=1794533465",
+     "bytes": 31192041,
+     "audio": true,
+     "filename": "あん庵_第4弾_11_寸胴の中身を追え_BGMあり.mp4"
+    },
+    {
+     "id": "48dc5dc83d1c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/48dc5dc83d1c.mp4?v=1794533465",
+     "bytes": 31150565,
+     "audio": true,
+     "filename": "あん庵_第4弾_11_寸胴の中身を追え_BGMなし.mp4"
+    }
+   ],
+   "title": "寸胴の中身を追え",
+   "num": "11",
+   "poster": "media/t/b9809ceed708.jpg?v=1794533465",
+   "preview": "media/p/b9809ceed708.mp4?v=1794533465",
+   "dur": 26.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "b9809ceed708",
+   "thumb": {
+    "src": "media/s/b9809ceed708.jpg?v=1794533465",
+    "bytes": 360535,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_11_寸胴の中身を追え_サムネ.jpg"
+   },
+   "genre": "企画・パロディ",
+   "timing": "12時台（昼休み）か 20〜22時",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|12_麺の一日",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "d3e4f991a684",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/d3e4f991a684.mp4?v=1794533392",
+     "bytes": 29474636,
+     "audio": true,
+     "filename": "あん庵_第4弾_12_麺の一日_BGMあり.mp4"
+    },
+    {
+     "id": "fd086d2e0da6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/fd086d2e0da6.mp4?v=1794533392",
+     "bytes": 29368800,
+     "audio": true,
+     "filename": "あん庵_第4弾_12_麺の一日_BGMなし.mp4"
+    }
+   ],
+   "title": "麺の一日",
+   "num": "12",
+   "poster": "media/t/d3e4f991a684.jpg?v=1794533392",
+   "preview": "media/p/d3e4f991a684.mp4?v=1794533392",
+   "dur": 29.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "d3e4f991a684",
+   "thumb": {
+    "src": "media/s/d3e4f991a684.jpg?v=1794533392",
+    "bytes": 268211,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_12_麺の一日_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|13_3つの工程同時進行",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "34086cf70b4e",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/34086cf70b4e.mp4?v=1794532639",
+     "bytes": 26407009,
+     "audio": true,
+     "filename": "あん庵_第4弾_13_3つの工程同時進行_BGMあり.mp4"
+    },
+    {
+     "id": "e59808faa4a9",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/e59808faa4a9.mp4?v=1794532639",
+     "bytes": 26411128,
+     "audio": true,
+     "filename": "あん庵_第4弾_13_3つの工程同時進行_BGMなし.mp4"
+    }
+   ],
+   "title": "3つの工程同時進行",
+   "num": "13",
+   "poster": "media/t/34086cf70b4e.jpg?v=1794532639",
+   "preview": "media/p/34086cf70b4e.mp4?v=1794532639",
+   "dur": 24.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "34086cf70b4e",
+   "thumb": {
+    "src": "media/s/34086cf70b4e.jpg?v=1794532639",
+    "bytes": 258703,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_13_3つの工程同時進行_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|17_洋食屋のカレー3つのこだわり",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "44471726aec0",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/44471726aec0.mp4?v=1794531577",
+     "bytes": 24150667,
+     "audio": true,
+     "filename": "あん庵_第4弾_17_洋食屋のカレー3つのこだわり_BGMあり.mp4"
+    },
+    {
+     "id": "5e576c5eb8c7",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/5e576c5eb8c7.mp4?v=1794531577",
+     "bytes": 24124529,
+     "audio": true,
+     "filename": "あん庵_第4弾_17_洋食屋のカレー3つのこだわり_BGMなし.mp4"
+    }
+   ],
+   "title": "洋食屋のカレー3つのこだわり",
+   "num": "17",
+   "poster": "media/t/44471726aec0.jpg?v=1794531577",
+   "preview": "media/p/44471726aec0.mp4?v=1794531577",
+   "dur": 30.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "44471726aec0",
+   "thumb": {
+    "src": "media/s/44471726aec0.jpg?v=1794531577",
+    "bytes": 321498,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_17_洋食屋のカレー3つのこだわり_サムネ.jpg"
+   },
+   "genre": "カレー",
+   "timing": "17〜18時（夕食前）。あんかけの投稿とは日をずらして",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|21_初めての注文4ステップ",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "405b6fde72f3",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/405b6fde72f3.mp4?v=1794531048",
+     "bytes": 17635077,
+     "audio": true,
+     "filename": "あん庵_第4弾_21_初めての注文4ステップ_BGMあり.mp4"
+    },
+    {
+     "id": "a551a5b97c61",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/a551a5b97c61.mp4?v=1794531048",
+     "bytes": 17578601,
+     "audio": true,
+     "filename": "あん庵_第4弾_21_初めての注文4ステップ_BGMなし.mp4"
+    }
+   ],
+   "title": "初めての注文4ステップ",
+   "num": "21",
+   "poster": "media/t/405b6fde72f3.jpg?v=1794531048",
+   "preview": "media/p/405b6fde72f3.mp4?v=1794531048",
+   "dur": 29.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "405b6fde72f3",
+   "thumb": {
+    "src": "media/s/405b6fde72f3.jpg?v=1794531048",
+    "bytes": 242205,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_21_初めての注文4ステップ_サムネ.jpg"
+   },
+   "genre": "はじめての方へ",
+   "timing": "平日10時半〜11時（ランチ前。初めて来る人が調べる時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|04_東三河式西へ",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "457f280a4873",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/457f280a4873.mp4?v=1794530371",
+     "bytes": 20709256,
+     "audio": true,
+     "filename": "あん庵_第4弾_04_東三河式西へ_BGMあり.mp4"
+    },
+    {
+     "id": "d6acbfb79489",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/d6acbfb79489.mp4?v=1794530371",
+     "bytes": 20554277,
+     "audio": true,
+     "filename": "あん庵_第4弾_04_東三河式西へ_BGMなし.mp4"
+    }
+   ],
+   "title": "東三河式西へ",
+   "num": "04",
+   "poster": "media/t/457f280a4873.jpg?v=1794530371",
+   "preview": "media/p/457f280a4873.mp4?v=1794530371",
+   "dur": 31.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "457f280a4873",
+   "thumb": {
+    "src": "media/s/457f280a4873.jpg?v=1794530371",
+    "bytes": 235001,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_04_東三河式西へ_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|19_夜のあん庵",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "fa95f8f56492",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/fa95f8f56492.mp4?v=1794529816",
+     "bytes": 35715676,
+     "audio": true,
+     "filename": "あん庵_第4弾_19_夜のあん庵_BGMあり.mp4"
+    },
+    {
+     "id": "38437ab30aea",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/38437ab30aea.mp4?v=1794529816",
+     "bytes": 35690108,
+     "audio": true,
+     "filename": "あん庵_第4弾_19_夜のあん庵_BGMなし.mp4"
+    }
+   ],
+   "title": "夜のあん庵",
+   "num": "19",
+   "poster": "media/t/fa95f8f56492.jpg?v=1794529816",
+   "preview": "media/p/fa95f8f56492.mp4?v=1794529816",
+   "dur": 25.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "fa95f8f56492",
+   "thumb": {
+    "src": "media/s/fa95f8f56492.jpg?v=1794529816",
+    "bytes": 418755,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_19_夜のあん庵_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "16〜17時（夜ごはんを決める前）。ディナー17〜21時の告知",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|15_ミモザの正体",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "384351abef2b",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/384351abef2b.mp4?v=1794529690",
+     "bytes": 17756423,
+     "audio": true,
+     "filename": "あん庵_第4弾_15_ミモザの正体_BGMあり.mp4"
+    },
+    {
+     "id": "1d461cf85fb1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/1d461cf85fb1.mp4?v=1794529690",
+     "bytes": 17717146,
+     "audio": true,
+     "filename": "あん庵_第4弾_15_ミモザの正体_BGMなし.mp4"
+    }
+   ],
+   "title": "ミモザの正体",
+   "num": "15",
+   "poster": "media/t/384351abef2b.jpg?v=1794529690",
+   "preview": "media/p/384351abef2b.mp4?v=1794529690",
+   "dur": 30.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "384351abef2b",
+   "thumb": {
+    "src": "media/s/384351abef2b.jpg?v=1794529690",
+    "bytes": 302253,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_15_ミモザの正体_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
   {
    "key": "第3弾|06_仕上げの順番クイズ",
    "series": "第3弾",
@@ -102,6 +920,49 @@
    },
    "genre": "料理・調理シーン",
    "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|01_鉄板ダービー",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "4dd3ff7e0598",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/4dd3ff7e0598.mp4?v=1794528660",
+     "bytes": 17556254,
+     "audio": true,
+     "filename": "あん庵_第4弾_01_鉄板ダービー_BGMあり.mp4"
+    },
+    {
+     "id": "e62b4be63a96",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/e62b4be63a96.mp4?v=1794528660",
+     "bytes": 17469439,
+     "audio": true,
+     "filename": "あん庵_第4弾_01_鉄板ダービー_BGMなし.mp4"
+    }
+   ],
+   "title": "鉄板ダービー",
+   "num": "01",
+   "poster": "media/t/4dd3ff7e0598.jpg?v=1794528660",
+   "preview": "media/p/4dd3ff7e0598.mp4?v=1794528660",
+   "dur": 29.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "4dd3ff7e0598",
+   "thumb": {
+    "src": "media/s/4dd3ff7e0598.jpg?v=1794528660",
+    "bytes": 249821,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_01_鉄板ダービー_サムネ.jpg"
+   },
+   "genre": "企画・パロディ",
+   "timing": "20〜22時（本命をコメントしてもらいやすい時間）",
    "added": "2026-11-13"
   },
   {
@@ -274,6 +1135,49 @@
    },
    "genre": "料理・調理シーン",
    "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|05_鉄板ナポリタン料理番組",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "605d5431c65d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/605d5431c65d.mp4?v=1794527589",
+     "bytes": 24027230,
+     "audio": true,
+     "filename": "あん庵_第4弾_05_鉄板ナポリタン料理番組_BGMあり.mp4"
+    },
+    {
+     "id": "ed4ec7971ecc",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/ed4ec7971ecc.mp4?v=1794527589",
+     "bytes": 24002260,
+     "audio": true,
+     "filename": "あん庵_第4弾_05_鉄板ナポリタン料理番組_BGMなし.mp4"
+    }
+   ],
+   "title": "鉄板ナポリタン料理番組",
+   "num": "05",
+   "poster": "media/t/605d5431c65d.jpg?v=1794527589",
+   "preview": "media/p/605d5431c65d.mp4?v=1794527589",
+   "dur": 27.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "605d5431c65d",
+   "thumb": {
+    "src": "media/s/605d5431c65d.jpg?v=1794527589",
+    "bytes": 278395,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_05_鉄板ナポリタン料理番組_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時（ランチ前）",
    "added": "2026-11-13"
   },
   {
@@ -532,6 +1436,49 @@
    },
    "genre": "お店・人",
    "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第4弾|02_深夜の通販",
+   "series": "第4弾",
+   "variants": [
+    {
+     "id": "91bdde051809",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/91bdde051809.mp4?v=1794526909",
+     "bytes": 24987426,
+     "audio": true,
+     "filename": "あん庵_第4弾_02_深夜の通販_BGMあり.mp4"
+    },
+    {
+     "id": "010acfdd5a6f",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/010acfdd5a6f.mp4?v=1794526910",
+     "bytes": 24951717,
+     "audio": true,
+     "filename": "あん庵_第4弾_02_深夜の通販_BGMなし.mp4"
+    }
+   ],
+   "title": "深夜の通販",
+   "num": "02",
+   "poster": "media/t/91bdde051809.jpg?v=1794526909",
+   "preview": "media/p/91bdde051809.mp4?v=1794526909",
+   "dur": 30.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "91bdde051809",
+   "thumb": {
+    "src": "media/s/91bdde051809.jpg?v=1794526910",
+    "bytes": 328705,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第4弾_02_深夜の通販_サムネ.jpg"
+   },
+   "genre": "企画・パロディ",
+   "timing": "平日10時半〜11時（ランチ前。セットを付けたくなる時間に）",
    "added": "2026-11-13"
   },
   {
