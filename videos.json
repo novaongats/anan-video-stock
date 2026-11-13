@@ -19,6 +19,1038 @@
  ],
  "items": [
   {
+   "key": "第3弾|06_仕上げの順番クイズ",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "295b65b2d870",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/295b65b2d870.mp4?v=1794529036",
+     "bytes": 27357374,
+     "audio": true,
+     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMあり.mp4"
+    },
+    {
+     "id": "1cf3f47729a6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/1cf3f47729a6.mp4?v=1794529036",
+     "bytes": 27243303,
+     "audio": true,
+     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMなし.mp4"
+    }
+   ],
+   "title": "仕上げの順番クイズ",
+   "num": "06",
+   "poster": "media/t/295b65b2d870.jpg?v=1794529036",
+   "preview": "media/p/295b65b2d870.mp4?v=1794529036",
+   "dur": 31.9,
+   "w": 1080,
+   "h": 1920,
+   "id": "295b65b2d870",
+   "thumb": {
+    "src": "media/s/295b65b2d870.jpg?v=1794529037",
+    "bytes": 209791,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_06_仕上げの順番クイズ_サムネ.jpg"
+   },
+   "genre": "クイズ・参加型",
+   "timing": "20〜22時（コメントが付きやすい時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|13_とんかつはここから",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "dbf83a964525",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/dbf83a964525.mp4?v=1794528985",
+     "bytes": 25479543,
+     "audio": true,
+     "filename": "あん庵_第3弾_13_とんかつはここから_BGMあり.mp4"
+    },
+    {
+     "id": "74e164fc61fb",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/74e164fc61fb.mp4?v=1794528985",
+     "bytes": 25331258,
+     "audio": true,
+     "filename": "あん庵_第3弾_13_とんかつはここから_BGMなし.mp4"
+    }
+   ],
+   "title": "とんかつはここから",
+   "num": "13",
+   "poster": "media/t/dbf83a964525.jpg?v=1794528985",
+   "preview": "media/p/dbf83a964525.mp4?v=1794528985",
+   "dur": 24.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "dbf83a964525",
+   "thumb": {
+    "src": "media/s/dbf83a964525.jpg?v=1794528985",
+    "bytes": 310624,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_13_とんかつはここから_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|03_極太麺の旅",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "df777ffadb26",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/df777ffadb26.mp4?v=1794528616",
+     "bytes": 25381911,
+     "audio": true,
+     "filename": "あん庵_第3弾_03_極太麺の旅_BGMあり.mp4"
+    },
+    {
+     "id": "c56df44141d1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/c56df44141d1.mp4?v=1794528616",
+     "bytes": 25371055,
+     "audio": true,
+     "filename": "あん庵_第3弾_03_極太麺の旅_BGMなし.mp4"
+    }
+   ],
+   "title": "極太麺の旅",
+   "num": "03",
+   "poster": "media/t/df777ffadb26.jpg?v=1794528616",
+   "preview": "media/p/df777ffadb26.mp4?v=1794528616",
+   "dur": 21.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "df777ffadb26",
+   "thumb": {
+    "src": "media/s/df777ffadb26.jpg?v=1794528616",
+    "bytes": 320670,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_03_極太麺の旅_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|05_のせる瞬間図鑑",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "5235c97043ed",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/5235c97043ed.mp4?v=1794528615",
+     "bytes": 35623310,
+     "audio": true,
+     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMあり.mp4"
+    },
+    {
+     "id": "72e96ad1849c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/72e96ad1849c.mp4?v=1794528615",
+     "bytes": 35582706,
+     "audio": true,
+     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMなし.mp4"
+    }
+   ],
+   "title": "のせる瞬間図鑑",
+   "num": "05",
+   "poster": "media/t/5235c97043ed.jpg?v=1794528615",
+   "preview": "media/p/5235c97043ed.mp4?v=1794528615",
+   "dur": 22.6,
+   "w": 1080,
+   "h": 1920,
+   "id": "5235c97043ed",
+   "thumb": {
+    "src": "media/s/5235c97043ed.jpg?v=1794528616",
+    "bytes": 206658,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_05_のせる瞬間図鑑_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|25_ガトーショコラLEVEL",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "cddd0b9c7319",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/cddd0b9c7319.mp4?v=1794528115",
+     "bytes": 26486391,
+     "audio": true,
+     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMあり.mp4"
+    },
+    {
+     "id": "274264f60ac2",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/274264f60ac2.mp4?v=1794528116",
+     "bytes": 26205586,
+     "audio": true,
+     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMなし.mp4"
+    }
+   ],
+   "title": "ガトーショコラLEVEL",
+   "num": "25",
+   "poster": "media/t/cddd0b9c7319.jpg?v=1794528115",
+   "preview": "media/p/cddd0b9c7319.mp4?v=1794528115",
+   "dur": 27.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "cddd0b9c7319",
+   "thumb": {
+    "src": "media/s/cddd0b9c7319.jpg?v=1794528116",
+    "bytes": 173215,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_サムネ.jpg"
+   },
+   "genre": "デザート・サイド",
+   "timing": "14〜15時（おやつどき）か 20時以降",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|23_盛り付け3分半を15秒で",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "5ad382e5e0eb",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/5ad382e5e0eb.mp4?v=1794528045",
+     "bytes": 18129653,
+     "audio": true,
+     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMあり.mp4"
+    },
+    {
+     "id": "708b91570d2d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/708b91570d2d.mp4?v=1794528045",
+     "bytes": 17908516,
+     "audio": true,
+     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMなし.mp4"
+    }
+   ],
+   "title": "盛り付け3分半を15秒で",
+   "num": "23",
+   "poster": "media/t/5ad382e5e0eb.jpg?v=1794528045",
+   "preview": "media/p/5ad382e5e0eb.mp4?v=1794528045",
+   "dur": 22.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "5ad382e5e0eb",
+   "thumb": {
+    "src": "media/s/5ad382e5e0eb.jpg?v=1794528047",
+    "bytes": 208377,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|02_卵割って流して",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0d6031a7cab2",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0d6031a7cab2.mp4?v=1794527201",
+     "bytes": 29853964,
+     "audio": true,
+     "filename": "あん庵_第3弾_02_卵割って流して_BGMあり.mp4"
+    },
+    {
+     "id": "f64f795f3aad",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/f64f795f3aad.mp4?v=1794527201",
+     "bytes": 29705024,
+     "audio": true,
+     "filename": "あん庵_第3弾_02_卵割って流して_BGMなし.mp4"
+    }
+   ],
+   "title": "卵割って流して",
+   "num": "02",
+   "poster": "media/t/0d6031a7cab2.jpg?v=1794527201",
+   "preview": "media/p/0d6031a7cab2.mp4?v=1794527201",
+   "dur": 22.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "0d6031a7cab2",
+   "thumb": {
+    "src": "media/s/0d6031a7cab2.jpg?v=1794527204",
+    "bytes": 267430,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_02_卵割って流して_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|16_どこに座る",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0f0d3935c2ed",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0f0d3935c2ed.mp4?v=1794527182",
+     "bytes": 20803320,
+     "audio": true,
+     "filename": "あん庵_第3弾_16_どこに座る_BGMあり.mp4"
+    },
+    {
+     "id": "b02912580635",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b02912580635.mp4?v=1794527182",
+     "bytes": 20568307,
+     "audio": true,
+     "filename": "あん庵_第3弾_16_どこに座る_BGMなし.mp4"
+    }
+   ],
+   "title": "どこに座る",
+   "num": "16",
+   "poster": "media/t/0f0d3935c2ed.jpg?v=1794527182",
+   "preview": "media/p/0f0d3935c2ed.mp4?v=1794527182",
+   "dur": 20.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "0f0d3935c2ed",
+   "thumb": {
+    "src": "media/s/0f0d3935c2ed.jpg?v=1794527186",
+    "bytes": 239288,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_16_どこに座る_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|27_スパサラのすべて",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "c8bc400ec3c4",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/c8bc400ec3c4.mp4?v=1794527161",
+     "bytes": 25461035,
+     "audio": true,
+     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMあり.mp4"
+    },
+    {
+     "id": "90c03b55be72",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/90c03b55be72.mp4?v=1794527161",
+     "bytes": 25266583,
+     "audio": true,
+     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMなし.mp4"
+    }
+   ],
+   "title": "スパサラのすべて",
+   "num": "27",
+   "poster": "media/t/c8bc400ec3c4.jpg?v=1794527161",
+   "preview": "media/p/c8bc400ec3c4.mp4?v=1794527161",
+   "dur": 23.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "c8bc400ec3c4",
+   "thumb": {
+    "src": "media/s/c8bc400ec3c4.jpg?v=1794527162",
+    "bytes": 237897,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_27_スパサラのすべて_サムネ.jpg"
+   },
+   "genre": "デザート・サイド",
+   "timing": "14〜15時（おやつどき）か 20時以降",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|18_照明の色で選ぶ席",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "57f9fcf2b857",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/57f9fcf2b857.mp4?v=1794526942",
+     "bytes": 11919403,
+     "audio": true,
+     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMあり.mp4"
+    },
+    {
+     "id": "5c95939b230c",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/5c95939b230c.mp4?v=1794526943",
+     "bytes": 11637281,
+     "audio": true,
+     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMなし.mp4"
+    }
+   ],
+   "title": "照明の色で選ぶ席",
+   "num": "18",
+   "poster": "media/t/57f9fcf2b857.jpg?v=1794526942",
+   "preview": "media/p/57f9fcf2b857.mp4?v=1794526942",
+   "dur": 18.3,
+   "w": 1080,
+   "h": 1920,
+   "id": "57f9fcf2b857",
+   "thumb": {
+    "src": "media/s/57f9fcf2b857.jpg?v=1794526943",
+    "bytes": 192920,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_18_照明の色で選ぶ席_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "17〜19時（夕方〜夜。照明が映える時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|15_昼の顔夜の顔",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "2b2ebdb56938",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/2b2ebdb56938.mp4?v=1794526940",
+     "bytes": 20856755,
+     "audio": true,
+     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMあり.mp4"
+    },
+    {
+     "id": "41654b7b29dc",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/41654b7b29dc.mp4?v=1794526940",
+     "bytes": 20764885,
+     "audio": true,
+     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMなし.mp4"
+    }
+   ],
+   "title": "昼の顔夜の顔",
+   "num": "15",
+   "poster": "media/t/2b2ebdb56938.jpg?v=1794526940",
+   "preview": "media/p/2b2ebdb56938.mp4?v=1794526940",
+   "dur": 17.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "2b2ebdb56938",
+   "thumb": {
+    "src": "media/s/2b2ebdb56938.jpg?v=1794526942",
+    "bytes": 306066,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_15_昼の顔夜の顔_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "16〜18時（昼から夜に変わる時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|12_ひとりでカウンター",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "293a3d73362d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/293a3d73362d.mp4?v=1794526938",
+     "bytes": 22192790,
+     "audio": true,
+     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMあり.mp4"
+    },
+    {
+     "id": "9155eb897e8d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/9155eb897e8d.mp4?v=1794526938",
+     "bytes": 21992973,
+     "audio": true,
+     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMなし.mp4"
+    }
+   ],
+   "title": "ひとりでカウンター",
+   "num": "12",
+   "poster": "media/t/293a3d73362d.jpg?v=1794526938",
+   "preview": "media/p/293a3d73362d.mp4?v=1794526938",
+   "dur": 15.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "293a3d73362d",
+   "thumb": {
+    "src": "media/s/293a3d73362d.jpg?v=1794526940",
+    "bytes": 219591,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_12_ひとりでカウンター_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "20〜22時（くつろいでスマホを見る時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|11_せんスパ10食",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "f64265748ec6",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/f64265748ec6.mp4?v=1794526863",
+     "bytes": 17543158,
+     "audio": true,
+     "filename": "あん庵_第3弾_11_せんスパ10食_BGMあり.mp4"
+    },
+    {
+     "id": "24c7432a2230",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/24c7432a2230.mp4?v=1794526863",
+     "bytes": 17452683,
+     "audio": true,
+     "filename": "あん庵_第3弾_11_せんスパ10食_BGMなし.mp4"
+    }
+   ],
+   "title": "せんスパ10食",
+   "num": "11",
+   "poster": "media/t/f64265748ec6.jpg?v=1794526863",
+   "preview": "media/p/f64265748ec6.mp4?v=1794526863",
+   "dur": 18.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "f64265748ec6",
+   "thumb": {
+    "src": "media/s/f64265748ec6.jpg?v=1794526864",
+    "bytes": 263551,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_11_せんスパ10食_サムネ.jpg"
+   },
+   "genre": "ランチ・せんスパ",
+   "timing": "平日10時〜11時半（ランチを決める前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|14_招き猫何匹",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "721194ef4a99",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/721194ef4a99.mp4?v=1794526750",
+     "bytes": 23466818,
+     "audio": true,
+     "filename": "あん庵_第3弾_14_招き猫何匹_BGMあり.mp4"
+    },
+    {
+     "id": "01e628393839",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/01e628393839.mp4?v=1794526750",
+     "bytes": 23189060,
+     "audio": true,
+     "filename": "あん庵_第3弾_14_招き猫何匹_BGMなし.mp4"
+    }
+   ],
+   "title": "招き猫何匹",
+   "num": "14",
+   "poster": "media/t/721194ef4a99.jpg?v=1794526750",
+   "preview": "media/p/721194ef4a99.mp4?v=1794526750",
+   "dur": 26.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "721194ef4a99",
+   "thumb": {
+    "src": "media/s/721194ef4a99.jpg?v=1794526752",
+    "bytes": 326045,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_14_招き猫何匹_サムネ.jpg"
+   },
+   "genre": "クイズ・参加型",
+   "timing": "20〜22時（コメントが付きやすい時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|20_店長ハマさんの開店前",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "0d008a5d6754",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/0d008a5d6754.mp4?v=1794526745",
+     "bytes": 17250290,
+     "audio": true,
+     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMあり.mp4"
+    },
+    {
+     "id": "633a67846b9e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/633a67846b9e.mp4?v=1794526745",
+     "bytes": 17095082,
+     "audio": true,
+     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMなし.mp4"
+    }
+   ],
+   "title": "店長ハマさんの開店前",
+   "num": "20",
+   "poster": "media/t/0d008a5d6754.jpg?v=1794526745",
+   "preview": "media/p/0d008a5d6754.mp4?v=1794526745",
+   "dur": 19.7,
+   "w": 1080,
+   "h": 1920,
+   "id": "0d008a5d6754",
+   "thumb": {
+    "src": "media/s/0d008a5d6754.jpg?v=1794526749",
+    "bytes": 201332,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_20_店長ハマさんの開店前_サムネ.jpg"
+   },
+   "genre": "お店・人",
+   "timing": "7〜9時（朝の通勤時間）。開店前の様子は朝に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|26_デザート総選挙",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "ad5ece793ece",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ad5ece793ece.mp4?v=1794526362",
+     "bytes": 13173664,
+     "audio": true,
+     "filename": "あん庵_第3弾_26_デザート総選挙_BGMあり.mp4"
+    },
+    {
+     "id": "d187ebed33f1",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/d187ebed33f1.mp4?v=1794526363",
+     "bytes": 12920285,
+     "audio": true,
+     "filename": "あん庵_第3弾_26_デザート総選挙_BGMなし.mp4"
+    }
+   ],
+   "title": "デザート総選挙",
+   "num": "26",
+   "poster": "media/t/ad5ece793ece.jpg?v=1794526362",
+   "preview": "media/p/ad5ece793ece.mp4?v=1794526362",
+   "dur": 25.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "ad5ece793ece",
+   "thumb": {
+    "src": "media/s/ad5ece793ece.jpg?v=1794526370",
+    "bytes": 187250,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_26_デザート総選挙_サムネ.jpg"
+   },
+   "genre": "デザート・サイド",
+   "timing": "14〜15時（おやつどき）か 20時以降",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|07_湯気だけが動く鉄板",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "a0e013768ef1",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a0e013768ef1.mp4?v=1794526272",
+     "bytes": 22599521,
+     "audio": true,
+     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMあり.mp4"
+    },
+    {
+     "id": "161b5893fa43",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/161b5893fa43.mp4?v=1794526272",
+     "bytes": 22522985,
+     "audio": true,
+     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMなし.mp4"
+    }
+   ],
+   "title": "湯気だけが動く鉄板",
+   "num": "07",
+   "poster": "media/t/a0e013768ef1.jpg?v=1794526272",
+   "preview": "media/p/a0e013768ef1.mp4?v=1794526272",
+   "dur": 18.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "a0e013768ef1",
+   "thumb": {
+    "src": "media/s/a0e013768ef1.jpg?v=1794526277",
+    "bytes": 250300,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|22_お持ち帰りのレシート",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "a96a0c531b28",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/a96a0c531b28.mp4?v=1794526200",
+     "bytes": 26016527,
+     "audio": true,
+     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMあり.mp4"
+    },
+    {
+     "id": "719053f2edb6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/719053f2edb6.mp4?v=1794526200",
+     "bytes": 25872180,
+     "audio": true,
+     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMなし.mp4"
+    }
+   ],
+   "title": "お持ち帰りのレシート",
+   "num": "22",
+   "poster": "media/t/a96a0c531b28.jpg?v=1794526200",
+   "preview": "media/p/a96a0c531b28.mp4?v=1794526200",
+   "dur": 22.0,
+   "w": 1080,
+   "h": 1920,
+   "id": "a96a0c531b28",
+   "thumb": {
+    "src": "media/s/a96a0c531b28.jpg?v=1794526207",
+    "bytes": 206287,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_22_お持ち帰りのレシート_サムネ.jpg"
+   },
+   "genre": "テイクアウト",
+   "timing": "平日16〜17時（夕ごはんを考え始める時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|29_ルーが落ちる瞬間",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "3bf9c487b7d5",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/3bf9c487b7d5.mp4?v=1794526007",
+     "bytes": 18795031,
+     "audio": true,
+     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMあり.mp4"
+    },
+    {
+     "id": "b11cd00a64ee",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/b11cd00a64ee.mp4?v=1794526007",
+     "bytes": 18638668,
+     "audio": true,
+     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMなし.mp4"
+    }
+   ],
+   "title": "ルーが落ちる瞬間",
+   "num": "29",
+   "poster": "media/t/3bf9c487b7d5.jpg?v=1794526007",
+   "preview": "media/p/3bf9c487b7d5.mp4?v=1794526007",
+   "dur": 21.4,
+   "w": 1080,
+   "h": 1920,
+   "id": "3bf9c487b7d5",
+   "thumb": {
+    "src": "media/s/3bf9c487b7d5.jpg?v=1794526008",
+    "bytes": 238596,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_サムネ.jpg"
+   },
+   "genre": "カレー",
+   "timing": "17〜18時（夕食前）。あんかけの投稿とは日をずらして",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|04_炎3連発",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "cd3c7eab2a21",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/cd3c7eab2a21.mp4?v=1794525923",
+     "bytes": 30473199,
+     "audio": true,
+     "filename": "あん庵_第3弾_04_炎3連発_BGMあり.mp4"
+    },
+    {
+     "id": "114564d6c873",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/114564d6c873.mp4?v=1794525923",
+     "bytes": 30398579,
+     "audio": true,
+     "filename": "あん庵_第3弾_04_炎3連発_BGMなし.mp4"
+    }
+   ],
+   "title": "炎3連発",
+   "num": "04",
+   "poster": "media/t/cd3c7eab2a21.jpg?v=1794525923",
+   "preview": "media/p/cd3c7eab2a21.mp4?v=1794525923",
+   "dur": 18.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "cd3c7eab2a21",
+   "thumb": {
+    "src": "media/s/cd3c7eab2a21.jpg?v=1794525926",
+    "bytes": 222260,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_04_炎3連発_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|09_鉄板vs白い皿",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "76960f223b9d",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/76960f223b9d.mp4?v=1794525716",
+     "bytes": 16213988,
+     "audio": true,
+     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMあり.mp4"
+    },
+    {
+     "id": "479f964b2ae6",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/479f964b2ae6.mp4?v=1794525716",
+     "bytes": 15977895,
+     "audio": true,
+     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMなし.mp4"
+    }
+   ],
+   "title": "鉄板vs白い皿",
+   "num": "09",
+   "poster": "media/t/76960f223b9d.jpg?v=1794525716",
+   "preview": "media/p/76960f223b9d.mp4?v=1794525716",
+   "dur": 25.5,
+   "w": 1080,
+   "h": 1920,
+   "id": "76960f223b9d",
+   "thumb": {
+    "src": "media/s/76960f223b9d.jpg?v=1794525716",
+    "bytes": 222028,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_09_鉄板vs白い皿_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|08_ポテトウインナー分解",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "772776c2632f",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/772776c2632f.mp4?v=1794525453",
+     "bytes": 23433471,
+     "audio": true,
+     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMあり.mp4"
+    },
+    {
+     "id": "d049355be86e",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/d049355be86e.mp4?v=1794525453",
+     "bytes": 23189402,
+     "audio": true,
+     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMなし.mp4"
+    }
+   ],
+   "title": "ポテトウインナー分解",
+   "num": "08",
+   "poster": "media/t/772776c2632f.jpg?v=1794525453",
+   "preview": "media/p/772776c2632f.mp4?v=1794525453",
+   "dur": 21.2,
+   "w": 1080,
+   "h": 1920,
+   "id": "772776c2632f",
+   "thumb": {
+    "src": "media/s/772776c2632f.jpg?v=1794525453",
+    "bytes": 219670,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_08_ポテトウインナー分解_サムネ.jpg"
+   },
+   "genre": "メニュー・こだわり",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|24_ふたの下は何",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "d3551fb91847",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/d3551fb91847.mp4?v=1794524518",
+     "bytes": 19145225,
+     "audio": true,
+     "filename": "あん庵_第3弾_24_ふたの下は何_BGMあり.mp4"
+    },
+    {
+     "id": "c566b88d6d7d",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/c566b88d6d7d.mp4?v=1794524518",
+     "bytes": 18897385,
+     "audio": true,
+     "filename": "あん庵_第3弾_24_ふたの下は何_BGMなし.mp4"
+    }
+   ],
+   "title": "ふたの下は何",
+   "num": "24",
+   "poster": "media/t/d3551fb91847.jpg?v=1794524518",
+   "preview": "media/p/d3551fb91847.mp4?v=1794524518",
+   "dur": 19.1,
+   "w": 1080,
+   "h": 1920,
+   "id": "d3551fb91847",
+   "thumb": {
+    "src": "media/s/d3551fb91847.jpg?v=1794524521",
+    "bytes": 258760,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_24_ふたの下は何_サムネ.jpg"
+   },
+   "genre": "テイクアウト",
+   "timing": "平日16〜17時（夕ごはんを考え始める時間）",
+   "added": "2026-11-13"
+  },
+  {
+   "key": "第3弾|01_あんとろり",
+   "series": "第3弾",
+   "variants": [
+    {
+     "id": "ed1c1e8626ec",
+     "label": "BGMあり",
+     "note": "そのまま投稿できる完成版",
+     "src": "media/o/ed1c1e8626ec.mp4?v=1794524081",
+     "bytes": 32260027,
+     "audio": true,
+     "filename": "あん庵_第3弾_01_あんとろり_BGMあり.mp4"
+    },
+    {
+     "id": "011bbf625476",
+     "label": "BGMなし",
+     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
+     "src": "media/o/011bbf625476.mp4?v=1794524081",
+     "bytes": 32262636,
+     "audio": true,
+     "filename": "あん庵_第3弾_01_あんとろり_BGMなし.mp4"
+    }
+   ],
+   "title": "あんとろり",
+   "num": "01",
+   "poster": "media/t/ed1c1e8626ec.jpg?v=1794524081",
+   "preview": "media/p/ed1c1e8626ec.mp4?v=1794524081",
+   "dur": 21.8,
+   "w": 1080,
+   "h": 1920,
+   "id": "ed1c1e8626ec",
+   "thumb": {
+    "src": "media/s/ed1c1e8626ec.jpg?v=1794524083",
+    "bytes": 269275,
+    "w": 1080,
+    "h": 1920,
+    "designed": true,
+    "filename": "あん庵_第3弾_01_あんとろり_サムネ.jpg"
+   },
+   "genre": "料理・調理シーン",
+   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
+   "added": "2026-11-13"
+  },
+  {
    "key": "第3弾|19_手書きの店",
    "series": "第3弾",
    "variants": [
@@ -59,1038 +1091,6 @@
    },
    "genre": "お店・人",
    "timing": "20〜22時（くつろいでスマホを見る時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|03_極太麺の旅",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "df777ffadb26",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/df777ffadb26.mp4?v=1794515886",
-     "bytes": 20635444,
-     "audio": true,
-     "filename": "あん庵_第3弾_03_極太麺の旅_BGMあり.mp4"
-    },
-    {
-     "id": "c56df44141d1",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/c56df44141d1.mp4?v=1794515886",
-     "bytes": 20634533,
-     "audio": true,
-     "filename": "あん庵_第3弾_03_極太麺の旅_BGMなし.mp4"
-    }
-   ],
-   "title": "極太麺の旅",
-   "num": "03",
-   "poster": "media/t/df777ffadb26.jpg?v=1794515886",
-   "preview": "media/p/df777ffadb26.mp4?v=1794515886",
-   "dur": 19.0,
-   "w": 1080,
-   "h": 1920,
-   "id": "df777ffadb26",
-   "thumb": {
-    "src": "media/s/df777ffadb26.jpg?v=1794515886",
-    "bytes": 320670,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_03_極太麺の旅_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|07_湯気だけが動く鉄板",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "a0e013768ef1",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/a0e013768ef1.mp4?v=1794515504",
-     "bytes": 19731062,
-     "audio": true,
-     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMあり.mp4"
-    },
-    {
-     "id": "161b5893fa43",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/161b5893fa43.mp4?v=1794515504",
-     "bytes": 19735639,
-     "audio": true,
-     "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_BGMなし.mp4"
-    }
-   ],
-   "title": "湯気だけが動く鉄板",
-   "num": "07",
-   "poster": "media/t/a0e013768ef1.jpg?v=1794515504",
-   "preview": "media/p/a0e013768ef1.mp4?v=1794515504",
-   "dur": 16.1,
-   "w": 1080,
-   "h": 1920,
-   "id": "a0e013768ef1",
-   "thumb": {
-    "src": "media/s/a0e013768ef1.jpg?v=1794515504",
-    "bytes": 215273,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_07_湯気だけが動く鉄板_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|24_ふたの下は何",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "d3551fb91847",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/d3551fb91847.mp4?v=1794514382",
-     "bytes": 11598360,
-     "audio": true,
-     "filename": "あん庵_第3弾_24_ふたの下は何_BGMあり.mp4"
-    },
-    {
-     "id": "c566b88d6d7d",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/c566b88d6d7d.mp4?v=1794514382",
-     "bytes": 11435828,
-     "audio": true,
-     "filename": "あん庵_第3弾_24_ふたの下は何_BGMなし.mp4"
-    }
-   ],
-   "title": "ふたの下は何",
-   "num": "24",
-   "poster": "media/t/d3551fb91847.jpg?v=1794514382",
-   "preview": "media/p/d3551fb91847.mp4?v=1794514382",
-   "dur": 16.6,
-   "w": 1080,
-   "h": 1920,
-   "id": "d3551fb91847",
-   "thumb": {
-    "src": "media/s/d3551fb91847.jpg?v=1794514382",
-    "bytes": 342749,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_24_ふたの下は何_サムネ.jpg"
-   },
-   "genre": "テイクアウト",
-   "timing": "平日16〜17時（夕ごはんを考え始める時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|22_お持ち帰りのレシート",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "a96a0c531b28",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/a96a0c531b28.mp4?v=1794514222",
-     "bytes": 18451679,
-     "audio": true,
-     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMあり.mp4"
-    },
-    {
-     "id": "719053f2edb6",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/719053f2edb6.mp4?v=1794514222",
-     "bytes": 18415891,
-     "audio": true,
-     "filename": "あん庵_第3弾_22_お持ち帰りのレシート_BGMなし.mp4"
-    }
-   ],
-   "title": "お持ち帰りのレシート",
-   "num": "22",
-   "poster": "media/t/a96a0c531b28.jpg?v=1794514222",
-   "preview": "media/p/a96a0c531b28.mp4?v=1794514222",
-   "dur": 16.8,
-   "w": 1080,
-   "h": 1920,
-   "id": "a96a0c531b28",
-   "thumb": {
-    "src": "media/s/a96a0c531b28.jpg?v=1794514223",
-    "bytes": 187815,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_22_お持ち帰りのレシート_サムネ.jpg"
-   },
-   "genre": "テイクアウト",
-   "timing": "平日16〜17時（夕ごはんを考え始める時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|29_ルーが落ちる瞬間",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "3bf9c487b7d5",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/3bf9c487b7d5.mp4?v=1794514215",
-     "bytes": 13703424,
-     "audio": true,
-     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMあり.mp4"
-    },
-    {
-     "id": "b11cd00a64ee",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/b11cd00a64ee.mp4?v=1794514215",
-     "bytes": 13641129,
-     "audio": true,
-     "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_BGMなし.mp4"
-    }
-   ],
-   "title": "ルーが落ちる瞬間",
-   "num": "29",
-   "poster": "media/t/3bf9c487b7d5.jpg?v=1794514215",
-   "preview": "media/p/3bf9c487b7d5.mp4?v=1794514215",
-   "dur": 15.1,
-   "w": 1080,
-   "h": 1920,
-   "id": "3bf9c487b7d5",
-   "thumb": {
-    "src": "media/s/3bf9c487b7d5.jpg?v=1794514215",
-    "bytes": 235836,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_29_ルーが落ちる瞬間_サムネ.jpg"
-   },
-   "genre": "カレー",
-   "timing": "17〜18時（夕食前）。あんかけの投稿とは日をずらして",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|16_どこに座る",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "0f0d3935c2ed",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/0f0d3935c2ed.mp4?v=1794514168",
-     "bytes": 10486878,
-     "audio": true,
-     "filename": "あん庵_第3弾_16_どこに座る_BGMあり.mp4"
-    },
-    {
-     "id": "b02912580635",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/b02912580635.mp4?v=1794514168",
-     "bytes": 10393243,
-     "audio": true,
-     "filename": "あん庵_第3弾_16_どこに座る_BGMなし.mp4"
-    }
-   ],
-   "title": "どこに座る",
-   "num": "16",
-   "poster": "media/t/0f0d3935c2ed.jpg?v=1794514168",
-   "preview": "media/p/0f0d3935c2ed.mp4?v=1794514168",
-   "dur": 14.8,
-   "w": 1080,
-   "h": 1920,
-   "id": "0f0d3935c2ed",
-   "thumb": {
-    "src": "media/s/0f0d3935c2ed.jpg?v=1794514168",
-    "bytes": 83481,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_16_どこに座る_サムネ.jpg"
-   },
-   "genre": "お店・人",
-   "timing": "20〜22時（くつろいでスマホを見る時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|02_卵割って流して",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "0d6031a7cab2",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/0d6031a7cab2.mp4?v=1794514123",
-     "bytes": 16166010,
-     "audio": true,
-     "filename": "あん庵_第3弾_02_卵割って流して_BGMあり.mp4"
-    },
-    {
-     "id": "f64f795f3aad",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/f64f795f3aad.mp4?v=1794514124",
-     "bytes": 16159890,
-     "audio": true,
-     "filename": "あん庵_第3弾_02_卵割って流して_BGMなし.mp4"
-    }
-   ],
-   "title": "卵割って流して",
-   "num": "02",
-   "poster": "media/t/0d6031a7cab2.jpg?v=1794514123",
-   "preview": "media/p/0d6031a7cab2.mp4?v=1794514123",
-   "dur": 12.5,
-   "w": 1080,
-   "h": 1920,
-   "id": "0d6031a7cab2",
-   "thumb": {
-    "src": "media/s/0d6031a7cab2.jpg?v=1794514124",
-    "bytes": 243305,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_02_卵割って流して_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|13_とんかつはここから",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "dbf83a964525",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/dbf83a964525.mp4?v=1794514087",
-     "bytes": 19091245,
-     "audio": true,
-     "filename": "あん庵_第3弾_13_とんかつはここから_BGMあり.mp4"
-    },
-    {
-     "id": "74e164fc61fb",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/74e164fc61fb.mp4?v=1794514087",
-     "bytes": 19048163,
-     "audio": true,
-     "filename": "あん庵_第3弾_13_とんかつはここから_BGMなし.mp4"
-    }
-   ],
-   "title": "とんかつはここから",
-   "num": "13",
-   "poster": "media/t/dbf83a964525.jpg?v=1794514087",
-   "preview": "media/p/dbf83a964525.mp4?v=1794514087",
-   "dur": 17.8,
-   "w": 1080,
-   "h": 1920,
-   "id": "dbf83a964525",
-   "thumb": {
-    "src": "media/s/dbf83a964525.jpg?v=1794514088",
-    "bytes": 402063,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_13_とんかつはここから_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|01_あんとろり",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "ed1c1e8626ec",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/ed1c1e8626ec.mp4?v=1794514085",
-     "bytes": 25346396,
-     "audio": true,
-     "filename": "あん庵_第3弾_01_あんとろり_BGMあり.mp4"
-    },
-    {
-     "id": "011bbf625476",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/011bbf625476.mp4?v=1794514085",
-     "bytes": 25345613,
-     "audio": true,
-     "filename": "あん庵_第3弾_01_あんとろり_BGMなし.mp4"
-    }
-   ],
-   "title": "あんとろり",
-   "num": "01",
-   "poster": "media/t/ed1c1e8626ec.jpg?v=1794514085",
-   "preview": "media/p/ed1c1e8626ec.mp4?v=1794514085",
-   "dur": 18.1,
-   "w": 1080,
-   "h": 1920,
-   "id": "ed1c1e8626ec",
-   "thumb": {
-    "src": "media/s/ed1c1e8626ec.jpg?v=1794514085",
-    "bytes": 230902,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_01_あんとろり_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|26_デザート総選挙",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "ad5ece793ece",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/ad5ece793ece.mp4?v=1794513980",
-     "bytes": 10689124,
-     "audio": true,
-     "filename": "あん庵_第3弾_26_デザート総選挙_BGMあり.mp4"
-    },
-    {
-     "id": "d187ebed33f1",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/d187ebed33f1.mp4?v=1794513980",
-     "bytes": 10582901,
-     "audio": true,
-     "filename": "あん庵_第3弾_26_デザート総選挙_BGMなし.mp4"
-    }
-   ],
-   "title": "デザート総選挙",
-   "num": "26",
-   "poster": "media/t/ad5ece793ece.jpg?v=1794513980",
-   "preview": "media/p/ad5ece793ece.mp4?v=1794513980",
-   "dur": 19.3,
-   "w": 1080,
-   "h": 1920,
-   "id": "ad5ece793ece",
-   "thumb": {
-    "src": "media/s/ad5ece793ece.jpg?v=1794513980",
-    "bytes": 179680,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_26_デザート総選挙_サムネ.jpg"
-   },
-   "genre": "デザート・サイド",
-   "timing": "14〜15時（おやつどき）か 20時以降",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|15_昼の顔夜の顔",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "2b2ebdb56938",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/2b2ebdb56938.mp4?v=1794513979",
-     "bytes": 16175553,
-     "audio": true,
-     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMあり.mp4"
-    },
-    {
-     "id": "41654b7b29dc",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/41654b7b29dc.mp4?v=1794513979",
-     "bytes": 16162402,
-     "audio": true,
-     "filename": "あん庵_第3弾_15_昼の顔夜の顔_BGMなし.mp4"
-    }
-   ],
-   "title": "昼の顔夜の顔",
-   "num": "15",
-   "poster": "media/t/2b2ebdb56938.jpg?v=1794513979",
-   "preview": "media/p/2b2ebdb56938.mp4?v=1794513979",
-   "dur": 13.2,
-   "w": 1080,
-   "h": 1920,
-   "id": "2b2ebdb56938",
-   "thumb": {
-    "src": "media/s/2b2ebdb56938.jpg?v=1794513980",
-    "bytes": 310496,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_15_昼の顔夜の顔_サムネ.jpg"
-   },
-   "genre": "お店・人",
-   "timing": "16〜18時（昼から夜に変わる時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|27_スパサラのすべて",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "c8bc400ec3c4",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/c8bc400ec3c4.mp4?v=1794513879",
-     "bytes": 17897470,
-     "audio": true,
-     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMあり.mp4"
-    },
-    {
-     "id": "90c03b55be72",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/90c03b55be72.mp4?v=1794513879",
-     "bytes": 17815344,
-     "audio": true,
-     "filename": "あん庵_第3弾_27_スパサラのすべて_BGMなし.mp4"
-    }
-   ],
-   "title": "スパサラのすべて",
-   "num": "27",
-   "poster": "media/t/c8bc400ec3c4.jpg?v=1794513879",
-   "preview": "media/p/c8bc400ec3c4.mp4?v=1794513879",
-   "dur": 18.8,
-   "w": 1080,
-   "h": 1920,
-   "id": "c8bc400ec3c4",
-   "thumb": {
-    "src": "media/s/c8bc400ec3c4.jpg?v=1794513880",
-    "bytes": 228240,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_27_スパサラのすべて_サムネ.jpg"
-   },
-   "genre": "デザート・サイド",
-   "timing": "14〜15時（おやつどき）か 20時以降",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|08_ポテトウインナー分解",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "772776c2632f",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/772776c2632f.mp4?v=1794513805",
-     "bytes": 14494610,
-     "audio": true,
-     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMあり.mp4"
-    },
-    {
-     "id": "d049355be86e",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/d049355be86e.mp4?v=1794513805",
-     "bytes": 14416094,
-     "audio": true,
-     "filename": "あん庵_第3弾_08_ポテトウインナー分解_BGMなし.mp4"
-    }
-   ],
-   "title": "ポテトウインナー分解",
-   "num": "08",
-   "poster": "media/t/772776c2632f.jpg?v=1794513805",
-   "preview": "media/p/772776c2632f.mp4?v=1794513805",
-   "dur": 13.9,
-   "w": 1080,
-   "h": 1920,
-   "id": "772776c2632f",
-   "thumb": {
-    "src": "media/s/772776c2632f.jpg?v=1794513806",
-    "bytes": 92602,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_08_ポテトウインナー分解_サムネ.jpg"
-   },
-   "genre": "メニュー・こだわり",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|20_店長ハマさんの開店前",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "0d008a5d6754",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/0d008a5d6754.mp4?v=1794513603",
-     "bytes": 12434398,
-     "audio": true,
-     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMあり.mp4"
-    },
-    {
-     "id": "633a67846b9e",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/633a67846b9e.mp4?v=1794513677",
-     "bytes": 12414133,
-     "audio": true,
-     "filename": "あん庵_第3弾_20_店長ハマさんの開店前_BGMなし.mp4"
-    }
-   ],
-   "title": "店長ハマさんの開店前",
-   "num": "20",
-   "poster": "media/t/0d008a5d6754.jpg?v=1794513603",
-   "preview": "media/p/0d008a5d6754.mp4?v=1794513603",
-   "dur": 14.0,
-   "w": 1080,
-   "h": 1920,
-   "id": "0d008a5d6754",
-   "thumb": {
-    "src": "media/s/0d008a5d6754.jpg?v=1794513604",
-    "bytes": 201299,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_20_店長ハマさんの開店前_サムネ.jpg"
-   },
-   "genre": "お店・人",
-   "timing": "7〜9時（朝の通勤時間）。開店前の様子は朝に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|06_仕上げの順番クイズ",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "295b65b2d870",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/295b65b2d870.mp4?v=1794513628",
-     "bytes": 16612385,
-     "audio": true,
-     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMあり.mp4"
-    },
-    {
-     "id": "1cf3f47729a6",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/1cf3f47729a6.mp4?v=1794513628",
-     "bytes": 16583140,
-     "audio": true,
-     "filename": "あん庵_第3弾_06_仕上げの順番クイズ_BGMなし.mp4"
-    }
-   ],
-   "title": "仕上げの順番クイズ",
-   "num": "06",
-   "poster": "media/t/295b65b2d870.jpg?v=1794513628",
-   "preview": "media/p/295b65b2d870.mp4?v=1794513628",
-   "dur": 18.2,
-   "w": 1080,
-   "h": 1920,
-   "id": "295b65b2d870",
-   "thumb": {
-    "src": "media/s/295b65b2d870.jpg?v=1794513629",
-    "bytes": 256960,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_06_仕上げの順番クイズ_サムネ.jpg"
-   },
-   "genre": "クイズ・参加型",
-   "timing": "20〜22時（コメントが付きやすい時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|23_盛り付け3分半を15秒で",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "5ad382e5e0eb",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/5ad382e5e0eb.mp4?v=1794513602",
-     "bytes": 10759203,
-     "audio": true,
-     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMあり.mp4"
-    },
-    {
-     "id": "708b91570d2d",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/708b91570d2d.mp4?v=1794513602",
-     "bytes": 10645214,
-     "audio": true,
-     "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_BGMなし.mp4"
-    }
-   ],
-   "title": "盛り付け3分半を15秒で",
-   "num": "23",
-   "poster": "media/t/5ad382e5e0eb.jpg?v=1794513602",
-   "preview": "media/p/5ad382e5e0eb.mp4?v=1794513602",
-   "dur": 15.7,
-   "w": 1080,
-   "h": 1920,
-   "id": "5ad382e5e0eb",
-   "thumb": {
-    "src": "media/s/5ad382e5e0eb.jpg?v=1794513604",
-    "bytes": 173698,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_23_盛り付け3分半を15秒で_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|11_せんスパ10食",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "f64265748ec6",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/f64265748ec6.mp4?v=1794513599",
-     "bytes": 14006722,
-     "audio": true,
-     "filename": "あん庵_第3弾_11_せんスパ10食_BGMあり.mp4"
-    },
-    {
-     "id": "24c7432a2230",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/24c7432a2230.mp4?v=1794513599",
-     "bytes": 13997533,
-     "audio": true,
-     "filename": "あん庵_第3弾_11_せんスパ10食_BGMなし.mp4"
-    }
-   ],
-   "title": "せんスパ10食",
-   "num": "11",
-   "poster": "media/t/f64265748ec6.jpg?v=1794513599",
-   "preview": "media/p/f64265748ec6.mp4?v=1794513599",
-   "dur": 14.3,
-   "w": 1080,
-   "h": 1920,
-   "id": "f64265748ec6",
-   "thumb": {
-    "src": "media/s/f64265748ec6.jpg?v=1794513601",
-    "bytes": 324356,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_11_せんスパ10食_サムネ.jpg"
-   },
-   "genre": "ランチ・せんスパ",
-   "timing": "平日10時〜11時半（ランチを決める前）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|14_招き猫何匹",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "721194ef4a99",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/721194ef4a99.mp4?v=1794513450",
-     "bytes": 16441882,
-     "audio": true,
-     "filename": "あん庵_第3弾_14_招き猫何匹_BGMあり.mp4"
-    },
-    {
-     "id": "01e628393839",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/01e628393839.mp4?v=1794513450",
-     "bytes": 16360134,
-     "audio": true,
-     "filename": "あん庵_第3弾_14_招き猫何匹_BGMなし.mp4"
-    }
-   ],
-   "title": "招き猫何匹",
-   "num": "14",
-   "poster": "media/t/721194ef4a99.jpg?v=1794513450",
-   "preview": "media/p/721194ef4a99.mp4?v=1794513450",
-   "dur": 17.7,
-   "w": 1080,
-   "h": 1920,
-   "id": "721194ef4a99",
-   "thumb": {
-    "src": "media/s/721194ef4a99.jpg?v=1794513452",
-    "bytes": 324693,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_14_招き猫何匹_サムネ.jpg"
-   },
-   "genre": "クイズ・参加型",
-   "timing": "20〜22時（コメントが付きやすい時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|25_ガトーショコラLEVEL",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "cddd0b9c7319",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/cddd0b9c7319.mp4?v=1794512487",
-     "bytes": 13707468,
-     "audio": true,
-     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMあり.mp4"
-    },
-    {
-     "id": "274264f60ac2",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/274264f60ac2.mp4?v=1794512487",
-     "bytes": 13628597,
-     "audio": true,
-     "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_BGMなし.mp4"
-    }
-   ],
-   "title": "ガトーショコラLEVEL",
-   "num": "25",
-   "poster": "media/t/cddd0b9c7319.jpg?v=1794512487",
-   "preview": "media/p/cddd0b9c7319.mp4?v=1794512487",
-   "dur": 15.6,
-   "w": 1080,
-   "h": 1920,
-   "id": "cddd0b9c7319",
-   "thumb": {
-    "src": "media/s/cddd0b9c7319.jpg?v=1794512489",
-    "bytes": 173218,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_25_ガトーショコラLEVEL_サムネ.jpg"
-   },
-   "genre": "デザート・サイド",
-   "timing": "14〜15時（おやつどき）か 20時以降",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|05_のせる瞬間図鑑",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "5235c97043ed",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/5235c97043ed.mp4?v=1794512079",
-     "bytes": 24587886,
-     "audio": true,
-     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMあり.mp4"
-    },
-    {
-     "id": "72e96ad1849c",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/72e96ad1849c.mp4?v=1794512079",
-     "bytes": 24545724,
-     "audio": true,
-     "filename": "あん庵_第3弾_05_のせる瞬間図鑑_BGMなし.mp4"
-    }
-   ],
-   "title": "のせる瞬間図鑑",
-   "num": "05",
-   "poster": "media/t/5235c97043ed.jpg?v=1794512079",
-   "preview": "media/p/5235c97043ed.mp4?v=1794512079",
-   "dur": 18.8,
-   "w": 1080,
-   "h": 1920,
-   "id": "5235c97043ed",
-   "thumb": {
-    "src": "media/s/5235c97043ed.jpg?v=1794512079",
-    "bytes": 202941,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_05_のせる瞬間図鑑_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|09_鉄板vs白い皿",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "76960f223b9d",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/76960f223b9d.mp4?v=1794511996",
-     "bytes": 10588665,
-     "audio": true,
-     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMあり.mp4"
-    },
-    {
-     "id": "479f964b2ae6",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/479f964b2ae6.mp4?v=1794511996",
-     "bytes": 10549115,
-     "audio": true,
-     "filename": "あん庵_第3弾_09_鉄板vs白い皿_BGMなし.mp4"
-    }
-   ],
-   "title": "鉄板vs白い皿",
-   "num": "09",
-   "poster": "media/t/76960f223b9d.jpg?v=1794511996",
-   "preview": "media/p/76960f223b9d.mp4?v=1794511996",
-   "dur": 15.5,
-   "w": 1080,
-   "h": 1920,
-   "id": "76960f223b9d",
-   "thumb": {
-    "src": "media/s/76960f223b9d.jpg?v=1794511998",
-    "bytes": 220671,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_09_鉄板vs白い皿_サムネ.jpg"
-   },
-   "genre": "メニュー・こだわり",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|18_照明の色で選ぶ席",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "57f9fcf2b857",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/57f9fcf2b857.mp4?v=1794510917",
-     "bytes": 14039898,
-     "audio": true,
-     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMあり.mp4"
-    },
-    {
-     "id": "5c95939b230c",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/5c95939b230c.mp4?v=1794510917",
-     "bytes": 13895907,
-     "audio": true,
-     "filename": "あん庵_第3弾_18_照明の色で選ぶ席_BGMなし.mp4"
-    }
-   ],
-   "title": "照明の色で選ぶ席",
-   "num": "18",
-   "poster": "media/t/57f9fcf2b857.jpg?v=1794510917",
-   "preview": "media/p/57f9fcf2b857.mp4?v=1794510917",
-   "dur": 14.6,
-   "w": 1080,
-   "h": 1920,
-   "id": "57f9fcf2b857",
-   "thumb": {
-    "src": "media/s/57f9fcf2b857.jpg?v=1794510875",
-    "bytes": 343142,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_18_照明の色で選ぶ席_サムネ.jpg"
-   },
-   "genre": "お店・人",
-   "timing": "17〜19時（夕方〜夜。照明が映える時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|12_ひとりでカウンター",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "293a3d73362d",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/293a3d73362d.mp4?v=1794510898",
-     "bytes": 13995623,
-     "audio": true,
-     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMあり.mp4"
-    },
-    {
-     "id": "9155eb897e8d",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/9155eb897e8d.mp4?v=1794510899",
-     "bytes": 13899959,
-     "audio": true,
-     "filename": "あん庵_第3弾_12_ひとりでカウンター_BGMなし.mp4"
-    }
-   ],
-   "title": "ひとりでカウンター",
-   "num": "12",
-   "poster": "media/t/293a3d73362d.jpg?v=1794510898",
-   "preview": "media/p/293a3d73362d.mp4?v=1794510898",
-   "dur": 12.1,
-   "w": 1080,
-   "h": 1920,
-   "id": "293a3d73362d",
-   "thumb": {
-    "src": "media/s/293a3d73362d.jpg?v=1794507909",
-    "bytes": 325232,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_12_ひとりでカウンター_サムネ.jpg"
-   },
-   "genre": "お店・人",
-   "timing": "20〜22時（くつろいでスマホを見る時間）",
-   "added": "2026-11-13"
-  },
-  {
-   "key": "第3弾|04_炎3連発",
-   "series": "第3弾",
-   "variants": [
-    {
-     "id": "cd3c7eab2a21",
-     "label": "BGMあり",
-     "note": "そのまま投稿できる完成版",
-     "src": "media/o/cd3c7eab2a21.mp4?v=1794510870",
-     "bytes": 19089802,
-     "audio": true,
-     "filename": "あん庵_第3弾_04_炎3連発_BGMあり.mp4"
-    },
-    {
-     "id": "114564d6c873",
-     "label": "BGMなし",
-     "note": "自分で曲を付ける用（インスタ・TikTokの曲を使うとき）",
-     "src": "media/o/114564d6c873.mp4?v=1794510870",
-     "bytes": 19090075,
-     "audio": true,
-     "filename": "あん庵_第3弾_04_炎3連発_BGMなし.mp4"
-    }
-   ],
-   "title": "炎3連発",
-   "num": "04",
-   "poster": "media/t/cd3c7eab2a21.jpg?v=1794510870",
-   "preview": "media/p/cd3c7eab2a21.mp4?v=1794510870",
-   "dur": 12.6,
-   "w": 1080,
-   "h": 1920,
-   "id": "cd3c7eab2a21",
-   "thumb": {
-    "src": "media/s/cd3c7eab2a21.jpg?v=1794510791",
-    "bytes": 198323,
-    "w": 1080,
-    "h": 1920,
-    "designed": true,
-    "filename": "あん庵_第3弾_04_炎3連発_サムネ.jpg"
-   },
-   "genre": "料理・調理シーン",
-   "timing": "平日10時半〜11時半（ランチ前）か 17〜18時（夕食前）。お腹がすく時間に",
    "added": "2026-11-13"
   },
   {
